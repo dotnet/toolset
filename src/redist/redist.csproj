@@ -1,6 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
   <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), dir.tasks))\dir.tasks" />
-  <Import Project="$(RepoRoot)/build/MSBuildExtensions.targets" />
 
   <PropertyGroup>
     <VersionPrefix>$(CliVersionPrefix)</VersionPrefix>
@@ -80,40 +79,6 @@
     <ChangeEntryPointLibraryName
           DepsFile="$(PublishDir)/%(BundledTools.Identity).deps.json"
           NewName="%(BundledTools.Identity).deps.json" />
-  </Target>
-
-  <Target Name="PublishMSBuildExtensions"
-          DependsOnTargets="GenerateMSBuildExtensions"
-          AfterTargets="Publish"
-          BeforeTargets="GenerateCliRuntimeConfigurationFiles">
-    <ItemGroup>
-      <MSBuildExtensionsContent Update="@(MSBuildExtensionsContent)">
-        <DestinationPath Condition="'%(MSBuildExtensionsContent.DestinationPath)' == ''">$(PublishDir)/%(MSBuildExtensionsContent.DeploymentSubpath)%(RecursiveDir)%(Filename)%(Extension)</DestinationPath>
-      </MSBuildExtensionsContent>
-    </ItemGroup>
-    
-      <Copy SourceFiles="@(MSBuildExtensionsContent)"
-            DestinationFiles="%(MSBuildExtensionsContent.DestinationPath)" />
-
-      <PropertyGroup>
-        <MSBuildTargetsDirectory>$(PublishDir)/runtimes/any/native</MSBuildTargetsDirectory>
-      </PropertyGroup>
-
-      <ItemGroup>
-        <NuPkgContentForMSBuildExtensions Include="$(MSBuildTargetsDirectory)/**/*.targets;
-                                                   $(MSBuildTargetsDirectory)/**/*.props;
-                                                   $(MSBuildTargetsDirectory)/**/*.overridetasks;
-                                                   $(MSBuildTargetsDirectory)/**/*.tasks" />
-
-        <NuPkgContentForMSBuildExtensionsRelativePaths Include="@(NuPkgContentForMSBuildExtensions->'runtimes/any/native/%(RecursiveDir)%(Filename)%(Extension)')" />
-      </ItemGroup>
-
-      <Move SourceFiles="@(NuPkgContentForMSBuildExtensions)"
-            DestinationFiles="@(NuPkgContentForMSBuildExtensions->'$(PublishDir)/%(RecursiveDir)%(Filename)%(Extension)')" />
-
-      <RemoveAssetFromDepsPackages DepsFile="$(PublishDir)/$(TargetName).deps.json"
-                                   SectionName="runtimeTargets"
-                                   AssetPath="%(NuPkgContentForMSBuildExtensionsRelativePaths.Identity)" />
   </Target>
 
   <!-- The msdia140typelib_clr0200.dll file is not MIT licensed (and it only used on Windows). Remove it, so
