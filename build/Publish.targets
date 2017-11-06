@@ -10,7 +10,6 @@
           Condition=" '$(PUBLISH_TO_AZURE_BLOB)' != '' "
           DependsOnTargets="Init;
                             Package;
-                            EvaluateRuntimeCoherence;
                             PublishArtifacts;
                             FinishBuild" />
 
@@ -41,8 +40,6 @@
   <Target Name="PublishCliVersionBadge">
     <ItemGroup>
       <CliVersionBadgeToUpload Include="$(VersionBadge)" />
-      <CliVersionBadgeToUpload Include="$(CoherentBadge)"
-              Condition=" '$(Coherent)' == 'true' " />
     </ItemGroup>
 
     <ItemGroup>

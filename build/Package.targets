@@ -2,7 +2,6 @@
 <Project ToolsVersion="14.0" DefaultTargets="Layout" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildThisFileDirectory)/package/Layout.targets" />
   <Import Project="$(MSBuildThisFileDirectory)/package/Archive.targets" />
-  <Import Project="$(MSBuildThisFileDirectory)/package/Nupkg.targets" />
 
   <Target Name="GenerateInstallers"
           Condition=" '$(SkipBuildingInstallers)' != 'true' "
@@ -12,6 +11,5 @@
           DependsOnTargets="BuildDotnetCliBuildFramework;
                             Init;
                             Layout;
-                            GenerateNugetPackages;
                             GenerateArchives"  />
 </Project>
