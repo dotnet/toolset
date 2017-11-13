@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.DotNet.Cli.Utils" Version="$(ToolsetVersion)" />
+    <PackageReference Include="Microsoft.DotNet.Cli.Utils" Version="$(CLI_ArchiveVersion)" />
   </ItemGroup>
 
 </Project>

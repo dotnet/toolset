@@ -23,6 +23,6 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
     <PackageReference Include="xunit" Version="2.2.0" />
     <PackageReference Include="Microsoft.DotNet.PlatformAbstractions" Version="$(PlatformAbstractionsVersion)" />
-    <PackageReference Include="Microsoft.DotNet.Cli.Utils" Version="$(ToolsetVersion)" />
+    <PackageReference Include="Microsoft.DotNet.Cli.Utils" Version="$(CLI_ArchiveVersion)" />
   </ItemGroup>
 </Project>
