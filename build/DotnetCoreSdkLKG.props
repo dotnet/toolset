@@ -6,7 +6,7 @@
     <SharedFrameworkRid>$(CoreSetupRid)</SharedFrameworkRid>
     <SharedFrameworkRid Condition=" '$(Rid)' == 'linux-musl-x64' ">$(Rid)</SharedFrameworkRid>
     <SharedFrameworkRid Condition=" '$(UsePortableLinuxSharedFramework)' == 'true' ">linux-x64</SharedFrameworkRid>
-    
+
     <DotNetCoreSdkLKGCompressedFileName>dotnet-sdk-$(DotNetCoreSdkLKGVersion)-$(SharedFrameworkRid)$(ArchiveExtension)</DotNetCoreSdkLKGCompressedFileName>
   </PropertyGroup>
 
