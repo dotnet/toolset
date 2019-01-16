@@ -36,8 +36,7 @@
       ManifestBuildId="$(BUILD_BUILDNUMBER)"
       ManifestCommit="$(BUILD_SOURCEVERSION)"
       AssetManifestPath="$(SdkAssetsManifestFilePath)"
-      PublishFlatContainer="true"
-      Condition=$/>
+      PublishFlatContainer="true" />
   </Target>
 
 </Project>
