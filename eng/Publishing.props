@@ -13,6 +13,8 @@
     <SdkAssetsToPublish Include="$(ArtifactsShippingPackagesDir)*.zip" />
   </ItemGroup>
 
+  <Import Project="$(NuGetPackageRoot)microsoft.dotnet.build.tasks.feed\$(MicrosoftDotNetBuildTasksFeedVersion)\build\Microsoft.DotNet.Build.Tasks.Feed.targets" />
+  
   <Target Name="PublishCoreSdkAssets" BeforeTargets="Publish">
     <PropertyGroup>
       <Version Condition=" '$(VersionSuffix)' != '' ">$(VersionPrefix)-$(VersionSuffix)</Version>
