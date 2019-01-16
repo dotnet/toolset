@@ -12,10 +12,8 @@
   <ItemGroup>
     <SdkAssetsToPublish Include="$(ArtifactsShippingPackagesDir)*.zip" />
   </ItemGroup>
-
-  <Import Project="$(NuGetPackageRoot)microsoft.dotnet.build.tasks.feed\$(MicrosoftDotNetBuildTasksFeedVersion)\build\Microsoft.DotNet.Build.Tasks.Feed.targets" />
   
-  <Target Name="PublishCoreSdkAssets" BeforeTargets="Publish">
+  <Target Name="PublishCoreSdkAssets" BeforeTargets="Publish" Condition="$(PublishToAzure)">
     <PropertyGroup>
       <Version Condition=" '$(VersionSuffix)' != '' ">$(VersionPrefix)-$(VersionSuffix)</Version>
       <Version Condition=" '$(Version)' == '' ">$(VersionPrefix)</Version>
@@ -38,7 +36,8 @@
       ManifestBuildId="$(BUILD_BUILDNUMBER)"
       ManifestCommit="$(BUILD_SOURCEVERSION)"
       AssetManifestPath="$(SdkAssetsManifestFilePath)"
-      PublishFlatContainer="true"/>
+      PublishFlatContainer="true"
+      Condition=$/>
   </Target>
 
 </Project>
