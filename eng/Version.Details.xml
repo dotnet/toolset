@@ -5,9 +5,9 @@
       <Uri>https://github.com/dotnet/cli</Uri>
       <Sha>f38d1472d05573158f52ec30f5163fe0316ede7b</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk" Version="3.0.100-preview.19062.1">
+    <Dependency Name="Microsoft.NET.Sdk" Version="3.0.100-preview.19066.3">
       <Uri>https://github.com/dotnet/sdk</Uri>
-      <Sha>67275f2a66b71e480fcc36b17a5b4b0e06f8e5da</Sha>
+      <Sha>5f022edccea9bf33f8729fbc80dbaf0d41d399be</Sha>
     </Dependency>
     <Dependency Name="Microsoft.Build" Version="16.0.0-preview.381">
       <Uri>https://github.com/microsoft/build</Uri>
@@ -21,13 +21,13 @@
       <Uri>https://github.com/dotnet/roslyn</Uri>
       <Sha></Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.0.0-preview-18579-0056">
+    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.0.0-preview-19066-02">
       <Uri>https://github.com/aspnet/AspNetCore-Tooling</Uri>
-      <Sha></Sha>
+      <Sha>d5f0b4c0b4e48e14ce235036af67623290218372</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0-preview-27315-3">
+    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0-preview-27316-2">
       <Uri>https://devdiv.visualstudio.com/DevDiv/_git/DotNet-Trusted</Uri>
-      <Sha>fd1815374efbf510bf1db9d6a8f2044592ad7795</Sha>
+      <Sha>f589faaf68dce277d493b343c030b6558e9bc80a</Sha>
     </Dependency>
     <Dependency Name="NuGet.Build.Tasks" Version="5.0.0-preview1.5663">
       <Uri>https://github.com/nuget/nuget.client</Uri>
@@ -43,9 +43,9 @@
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
-    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="1.0.0-beta.19064.4">
+    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="1.0.0-beta.19066.1">
       <Uri>https://github.com/dotnet/arcade</Uri>
-      <Sha>7ca7e1da3c77df0e0719c42148faff0bc39cb513</Sha>
+      <Sha>0fb5fc58347f42121ddc9c0b361e84b8acbffb12</Sha>
     </Dependency>
   </ToolsetDependencies>
 </Dependencies>
