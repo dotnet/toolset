@@ -5,9 +5,9 @@
       <Uri>https://github.com/dotnet/cli</Uri>
       <Sha>a95b23ca81231072c4b7147d7db759a2f9cffd15</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk" Version="3.0.100-preview.19065.1">
+    <Dependency Name="Microsoft.NET.Sdk" Version="3.0.100-preview.19066.3">
       <Uri>https://github.com/dotnet/sdk</Uri>
-      <Sha>137286e8ddc22d14d6d3e3a647d8f02a8fcd6313</Sha>
+      <Sha>5f022edccea9bf33f8729fbc80dbaf0d41d399be</Sha>
     </Dependency>
     <Dependency Name="Microsoft.Build" Version="16.0.0-preview.378">
       <Uri>https://github.com/microsoft/build</Uri>
@@ -21,13 +21,13 @@
       <Uri>https://github.com/dotnet/roslyn</Uri>
       <Sha></Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.0.0-preview-19065-11">
+    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.0.0-preview-19066-02">
       <Uri>https://github.com/aspnet/AspNetCore-Tooling</Uri>
-      <Sha>f0615333943b18128a339675d2e6fae87963db93</Sha>
+      <Sha>d5f0b4c0b4e48e14ce235036af67623290218372</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0-preview-27315-14">
+    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0-preview-27316-2">
       <Uri>https://devdiv.visualstudio.com/DevDiv/_git/DotNet-Trusted</Uri>
-      <Sha>ead7b8c86e1aaf08333fac1c4e15d2e9f49b80f9</Sha>
+      <Sha>f589faaf68dce277d493b343c030b6558e9bc80a</Sha>
     </Dependency>
     <Dependency Name="NuGet.Build.Tasks" Version="5.0.0-preview1.5663">
       <Uri>https://github.com/nuget/nuget.client</Uri>
@@ -43,9 +43,9 @@
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
-    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="1.0.0-beta.19065.6">
+    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="1.0.0-beta.19066.1">
       <Uri>https://github.com/dotnet/arcade</Uri>
-      <Sha>289a8e607ef2a7358c351ddf3d08056186d4e554</Sha>
+      <Sha>0fb5fc58347f42121ddc9c0b361e84b8acbffb12</Sha>
     </Dependency>
   </ToolsetDependencies>
 </Dependencies>
