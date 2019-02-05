@@ -5,9 +5,9 @@
       <Uri>https://github.com/dotnet/cli</Uri>
       <Sha>70a89b565beadb8ccaae267aef98f89218e2d1d2</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk" Version="3.0.100-preview.19081.2">
+    <Dependency Name="Microsoft.NET.Sdk" Version="3.0.100-preview.19104.2">
       <Uri>https://github.com/dotnet/sdk</Uri>
-      <Sha>558fb45d9be3e88ea766481ab510f99d002a8402</Sha>
+      <Sha>49a6842940a884f2a06860fa9173c2f11963618d</Sha>
     </Dependency>
     <Dependency Name="Microsoft.Build" Version="16.1.0-preview.4">
       <Uri>https://github.com/microsoft/msbuild</Uri>
@@ -21,13 +21,13 @@
       <Uri>https://github.com/dotnet/roslyn</Uri>
       <Sha>359844cc9c32a5b4c1ba72a6e73a32989bd5daeb</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.0.0-preview-19081-03">
+    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.0.0-preview-19104-04">
       <Uri>https://github.com/aspnet/AspNetCore-Tooling</Uri>
-      <Sha>351fdbc3c63d3f63b71829660233841cf6be3d10</Sha>
+      <Sha>ef2f8975dbe30752fe3a7c4e04efcd798eac3b64</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0-preview-27331-15">
+    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0-preview-27404-14">
       <Uri>https://devdiv.visualstudio.com/DevDiv/_git/DotNet-Trusted</Uri>
-      <Sha>adcdf504ddb283fa0160d4f3291cc372fbce496e</Sha>
+      <Sha>2fdc4cdb4a3d1ff7a2607850b1afdb9905cfd075</Sha>
     </Dependency>
     <Dependency Name="NuGet.Build.Tasks" Version="5.0.0-preview1.5663">
       <Uri>https://github.com/nuget/nuget.client</Uri>
@@ -43,9 +43,9 @@
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
-    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="1.0.0-beta.19081.3">
+    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="1.0.0-beta.19104.18">
       <Uri>https://github.com/dotnet/arcade</Uri>
-      <Sha>1e859f1c17fffbe9c4fb6bbfc0fc71cd0c56563b</Sha>
+      <Sha>8888f0d15c7cc51018ffaf0a9a408f7ba8e82301</Sha>
     </Dependency>
   </ToolsetDependencies>
 </Dependencies>
