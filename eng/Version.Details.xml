@@ -21,9 +21,9 @@
       <Uri>https://github.com/dotnet/roslyn</Uri>
       <Sha>dff532845ba0522fc6e3137b80d9852366a67b55</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.0.0-preview3.19111.2">
+    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.0.0-preview3.19112.2">
       <Uri>https://github.com/aspnet/AspNetCore-Tooling</Uri>
-      <Sha>f58c4369618bd91762b369c0052c619382442a6b</Sha>
+      <Sha>f547905bc6f16ee6647882abe608f3cc4bc4c9e5</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0-preview-27406-16">
       <Uri>https://devdiv.visualstudio.com/DevDiv/_git/DotNet-Trusted</Uri>
