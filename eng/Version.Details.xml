@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Dependencies>
   <ProductDependencies>
-    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.0.100-preview.19104.2">
+    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.0.100-preview4.19113.2">
       <Uri>https://github.com/dotnet/cli</Uri>
-      <Sha>833970dd00410700bd1b688d2addc1ba74101a7d</Sha>
+      <Sha>d62e0c3fa3a22efd8148fe91c39dda38d3e41cf2</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Sdk" Version="3.0.100-preview4.19113.1">
       <Uri>https://github.com/dotnet/sdk</Uri>
@@ -17,17 +17,17 @@
       <Uri>https://github.com/microsoft/visualfsharp</Uri>
       <Sha>51a53a16e8915983ce11783da45af0aa14328586</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NETCore.Compilers" Version="3.0.0-beta4-19108-01">
+    <Dependency Name="Microsoft.NETCore.Compilers" Version="3.1.0-beta1-19113-04">
       <Uri>https://github.com/dotnet/roslyn</Uri>
-      <Sha>dff532845ba0522fc6e3137b80d9852366a67b55</Sha>
+      <Sha>6da3b7e3fbf092cfe06387ca98e18bca53100403</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.0.0-preview-19107-04">
+    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.0.0-preview3.19108.3">
       <Uri>https://github.com/aspnet/AspNetCore-Tooling</Uri>
-      <Sha>408b123a6454841884c1d840fb853eec8de12c10</Sha>
+      <Sha>b18dcbff5704a36dd485bb039bb33a6cef5d760b</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0-preview-27406-16">
+    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0-preview4-27413-33">
       <Uri>https://devdiv.visualstudio.com/DevDiv/_git/DotNet-Trusted</Uri>
-      <Sha>2fe7eb5e5820ecaf46e65a3f74df528a19b96a06</Sha>
+      <Sha>0c81fedeb239f3c565f5757970bb27cb1a8ec5ce</Sha>
     </Dependency>
     <Dependency Name="NuGet.Build.Tasks" Version="5.0.0-preview1.5663">
       <Uri>https://github.com/nuget/nuget.client</Uri>
@@ -37,15 +37,15 @@
       <Uri>https://github.com/microsoft/vstest</Uri>
       <Sha></Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Web" Version="3.0.100-preview.19105.1">
+    <Dependency Name="Microsoft.NET.Sdk.Web" Version="3.0.100-preview.19111.7">
       <Uri>https://github.com/aspnet/websdk</Uri>
-      <Sha>46e9d345661397b7931e88798a12532ca38cc7fa</Sha>
+      <Sha>ed611d1555e5cb07011cbc28225ccb7c66fce032</Sha>
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
-    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="1.0.0-beta.19107.1">
+    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="1.0.0-beta.19113.1">
       <Uri>https://github.com/dotnet/arcade</Uri>
-      <Sha>03c88c88a653dd8122cf599974e6073f27787a3f</Sha>
+      <Sha>9cb5f28be59a1ba9fe6bfb86449b216cfcdfb50e</Sha>
     </Dependency>
   </ToolsetDependencies>
 </Dependencies>
