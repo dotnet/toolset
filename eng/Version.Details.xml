@@ -5,9 +5,9 @@
       <Uri>https://github.com/dotnet/cli</Uri>
       <Sha>d62e0c3fa3a22efd8148fe91c39dda38d3e41cf2</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk" Version="3.0.100-preview4.19113.1">
+    <Dependency Name="Microsoft.NET.Sdk" Version="3.0.100-preview4.19114.2">
       <Uri>https://github.com/dotnet/sdk</Uri>
-      <Sha>a1a67301684b7c04a0c37e0dd17c702ec855852e</Sha>
+      <Sha>007ac8b89492647d0fb582f6fc86b1c122d88d7b</Sha>
     </Dependency>
     <Dependency Name="Microsoft.Build" Version="16.1.0-preview.4">
       <Uri>https://github.com/microsoft/msbuild</Uri>
@@ -17,17 +17,17 @@
       <Uri>https://github.com/microsoft/visualfsharp</Uri>
       <Sha>51a53a16e8915983ce11783da45af0aa14328586</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NETCore.Compilers" Version="3.1.0-beta1-19113-04">
+    <Dependency Name="Microsoft.NETCore.Compilers" Version="3.1.0-beta1-19115-07">
       <Uri>https://github.com/dotnet/roslyn</Uri>
-      <Sha>6da3b7e3fbf092cfe06387ca98e18bca53100403</Sha>
+      <Sha>692f5bf890341bd9a658870e32c16fa9c66d1cec</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.0.0-preview3.19114.4">
       <Uri>https://github.com/aspnet/AspNetCore-Tooling</Uri>
       <Sha>315f804d6ebed407ef05d64ce620afc3e6c42f9b</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0-preview4-27413-33">
+    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0-preview4-27415-15">
       <Uri>https://devdiv.visualstudio.com/DevDiv/_git/DotNet-Trusted</Uri>
-      <Sha>0c81fedeb239f3c565f5757970bb27cb1a8ec5ce</Sha>
+      <Sha>1b75e15697ccdfccff742dbfa669c4ff7a1ee5a0</Sha>
     </Dependency>
     <Dependency Name="NuGet.Build.Tasks" Version="5.0.0-preview1.5663">
       <Uri>https://github.com/nuget/nuget.client</Uri>
@@ -37,15 +37,15 @@
       <Uri>https://github.com/microsoft/vstest</Uri>
       <Sha></Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Web" Version="3.0.100-preview.19111.7">
+    <Dependency Name="Microsoft.NET.Sdk.Web" Version="3.0.100-preview.19114.5">
       <Uri>https://github.com/aspnet/websdk</Uri>
-      <Sha>ed611d1555e5cb07011cbc28225ccb7c66fce032</Sha>
+      <Sha>bf0921ee1e7e65328a59d77d7b844bc1eeb30d09</Sha>
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
-    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="1.0.0-beta.19113.1">
+    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="1.0.0-beta.19114.4">
       <Uri>https://github.com/dotnet/arcade</Uri>
-      <Sha>9cb5f28be59a1ba9fe6bfb86449b216cfcdfb50e</Sha>
+      <Sha>03497f16b93264158c28cee4eea767b53bc750f5</Sha>
     </Dependency>
   </ToolsetDependencies>
 </Dependencies>
