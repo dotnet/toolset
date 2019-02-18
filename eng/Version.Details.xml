@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Dependencies>
   <ProductDependencies>
-    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.0.100-preview4.19115.3">
+    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.0.100-preview4.19117.1">
       <Uri>https://github.com/dotnet/cli</Uri>
-      <Sha>a11491d3f92709cc8ed500eab99a8905d33acfec</Sha>
+      <Sha>419a8aeca49cc0e1a8153fa3044012cc1a845c94</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Sdk" Version="3.0.100-preview4.19115.1">
       <Uri>https://github.com/dotnet/sdk</Uri>
@@ -21,13 +21,13 @@
       <Uri>https://github.com/dotnet/roslyn</Uri>
       <Sha>435ba3a73ba19cfb5efcf91338c27242117ab353</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.0.0-preview3.19116.1">
+    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.0.0-preview3.19118.4">
       <Uri>https://github.com/aspnet/AspNetCore-Tooling</Uri>
-      <Sha>9527af366ee978a3c37f541f1ed1102539723ba3</Sha>
+      <Sha>ca9de74f4ead1fc544fb73b00212db9c677b8a9b</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0-preview4-27415-22">
+    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0-preview4-27417-15">
       <Uri>https://devdiv.visualstudio.com/DevDiv/_git/DotNet-Trusted</Uri>
-      <Sha>6cc6b07065ff449fc3113c569ce14c8686cf07bc</Sha>
+      <Sha>b65d26ce705c6e3d220990c4d60c84b2fcf0f5a0</Sha>
     </Dependency>
     <Dependency Name="NuGet.Build.Tasks" Version="5.0.0-preview1.5663">
       <Uri>https://github.com/nuget/nuget.client</Uri>
