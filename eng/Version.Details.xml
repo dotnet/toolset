@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Dependencies>
   <ProductDependencies>
-    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.0.100-preview3.19115.4">
+    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.0.100-preview3.19119.4">
       <Uri>https://github.com/dotnet/cli</Uri>
-      <Sha>3d7512241534809cd108d04c571d1a47f5184256</Sha>
+      <Sha>f1988ea8f6846b7e47865b970df39dd80258cc12</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk" Version="3.0.100-preview3.19118.2">
+    <Dependency Name="Microsoft.NET.Sdk" Version="3.0.100-preview3.19119.2">
       <Uri>https://github.com/dotnet/sdk</Uri>
-      <Sha>08c247909d59901318f716d496e4f5b3b3129a4a</Sha>
+      <Sha>9cd319d4b1354e1f2851ad92dbce0c383ef538e8</Sha>
     </Dependency>
     <Dependency Name="Microsoft.Build" Version="16.0.443">
       <Uri>https://github.com/microsoft/msbuild</Uri>
@@ -21,13 +21,13 @@
       <Uri>https://github.com/dotnet/roslyn</Uri>
       <Sha>435ba3a73ba19cfb5efcf91338c27242117ab353</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.0.0-preview3.19118.4">
+    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.0.0-preview3.19119.5">
       <Uri>https://github.com/aspnet/AspNetCore-Tooling</Uri>
-      <Sha>ca9de74f4ead1fc544fb73b00212db9c677b8a9b</Sha>
+      <Sha>182b2c81a5a3c2d5219cf20205e49dbe86823e18</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0-preview3-27419-15">
+    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0-preview3-27420-7">
       <Uri>https://devdiv.visualstudio.com/DevDiv/_git/DotNet-Trusted</Uri>
-      <Sha>25c8537013e8b8eb80ad951821dae15ee2687aa3</Sha>
+      <Sha>38df66ce958297a66dee0057f7a007f687742908</Sha>
     </Dependency>
     <Dependency Name="NuGet.Build.Tasks" Version="5.0.0-preview1.5663">
       <Uri>https://github.com/nuget/nuget.client</Uri>
