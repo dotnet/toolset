@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Dependencies>
   <ProductDependencies>
-    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.0.100-preview4.19119.3">
+    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.0.100-preview4.19122.1">
       <Uri>https://github.com/dotnet/cli</Uri>
-      <Sha>3035b8536b72dcc2a0db6d617d8e4af5a3c81fb1</Sha>
+      <Sha>5cc1be4c5644255beb1c84dafdcad422f4c39041</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Sdk" Version="3.0.100-preview4.19121.1">
       <Uri>https://github.com/dotnet/sdk</Uri>
@@ -13,17 +13,17 @@
       <Uri>https://github.com/microsoft/msbuild</Uri>
       <Sha>a972ec96c3920705e4e8d03d7ac8b6c3328450bd</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.FSharp.Compiler" Version="10.4.0-rtm-190131-04">
+    <Dependency Name="Microsoft.FSharp.Compiler" Version="10.4.2-rtm-190219-02">
       <Uri>https://github.com/microsoft/visualfsharp</Uri>
-      <Sha>51a53a16e8915983ce11783da45af0aa14328586</Sha>
+      <Sha>bce0c118f335af26d3ca39832d364080563d55a4</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NETCore.Compilers" Version="3.1.0-beta1-19123-01">
       <Uri>https://github.com/dotnet/roslyn</Uri>
       <Sha>04defaa183e1e3429baab6dd670d8e35879121c0</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.0.0-preview4.19121.3">
+    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.0.0-preview4.19123.1">
       <Uri>https://github.com/aspnet/AspNetCore-Tooling</Uri>
-      <Sha>d63c6bbc2cfdc6e89ebc06763674b94ab66ae3fb</Sha>
+      <Sha>d98a246f1ef6983bf7d01d16a4624a3d60c5ec2b</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0-preview4-27421-33">
       <Uri>https://devdiv.visualstudio.com/DevDiv/_git/DotNet-Trusted</Uri>
@@ -43,9 +43,9 @@
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
-    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="1.0.0-beta.19121.5">
+    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="1.0.0-beta.19122.3">
       <Uri>https://github.com/dotnet/arcade</Uri>
-      <Sha>660f6cd006b276edb3764f4d7d726cedf6c29d8e</Sha>
+      <Sha>78ccbeb1c8de779a6650257b408f5b3b4de16a0f</Sha>
     </Dependency>
   </ToolsetDependencies>
 </Dependencies>
