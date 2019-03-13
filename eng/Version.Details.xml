@@ -43,6 +43,10 @@
       <Uri>https://github.com/aspnet/websdk</Uri>
       <Sha>64b4e63f985dae64925e3e3d88594b00fb3e73fe</Sha>
     </Dependency>
+    <Dependency Name="ILLink.Tasks" Version="0.1.6-prerelease.19164.1">
+      <Uri>https://github.com/mono/linker</Uri>
+      <Sha></Sha>
+    </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
     <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="1.0.0-beta.19161.14">
