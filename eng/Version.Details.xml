@@ -31,11 +31,13 @@
     </Dependency>
     <Dependency Name="NuGet.Build.Tasks" Version="5.0.0-preview1.5663">
       <Uri>https://github.com/nuget/nuget.client</Uri>
-      <Sha></Sha>
+      <Sha>
+      </Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Test.Sdk" Version="15.9.0">
       <Uri>https://github.com/microsoft/vstest</Uri>
-      <Sha></Sha>
+      <Sha>
+      </Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Sdk.Web" Version="3.0.100-preview4.19159.1">
       <Uri>https://github.com/aspnet/websdk</Uri>
@@ -43,9 +45,9 @@
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
-    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="1.0.0-beta.19161.14">
+    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="1.0.0-beta.19162.7">
       <Uri>https://github.com/dotnet/arcade</Uri>
-      <Sha>2ca74c76adc84f0459b4a0352034db463d0b910f</Sha>
+      <Sha>443dea11f8649fe12fedf60cfab0a4b2b20bd153</Sha>
     </Dependency>
   </ToolsetDependencies>
 </Dependencies>
