@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Dependencies>
   <ProductDependencies>
-    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.0.100-preview4.19161.3">
+    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.0.100-preview4.19169.1">
       <Uri>https://github.com/dotnet/cli</Uri>
-      <Sha>4af56f867f2f638b4562c3b8432d70f7b09577b3</Sha>
+      <Sha>dac13e01872f17c82db0b13ab13ef548e39a8fb4</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk" Version="3.0.100-preview4.19162.1">
+    <Dependency Name="Microsoft.NET.Sdk" Version="3.0.100-preview4.19165.1">
       <Uri>https://github.com/dotnet/sdk</Uri>
-      <Sha>e5f471e8f2dba57a2eb6147fb85f573d44463071</Sha>
+      <Sha>51aba9eaa1b98c313df7a77bc108846cfb7ba51d</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.Build" Version="16.1.0-preview.21">
+    <Dependency Name="Microsoft.Build" Version="16.1.0-preview.27">
       <Uri>https://github.com/microsoft/msbuild</Uri>
-      <Sha>c36f772a8565538bbd215437b84885a6a677758c</Sha>
+      <Sha>91af6445a6a7e9c9f81ea0cdde13822b52e47a85</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.FSharp.Compiler" Version="10.4.2-rtm-190302-01">
-      <Uri>https://github.com/microsoft/visualfsharp</Uri>
-      <Sha>b6d8b38f093d98d3e8511d2e999c922db53bac4a</Sha>
+    <Dependency Name="Microsoft.FSharp.Compiler" Version="10.4.2-rtm-190320-02">
+      <Uri>https://github.com/Microsoft/visualfsharp</Uri>
+      <Sha>b06eb87ae8ac39334065e967161c915a3b377fa4</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NETCore.Compilers" Version="3.1.0-beta1-19162-08">
+    <Dependency Name="Microsoft.NETCore.Compilers" Version="3.1.0-beta1-19164-01">
       <Uri>https://github.com/dotnet/roslyn</Uri>
-      <Sha>b02e2c50a2f2aeabb5b4e5d850c65ad8686848e3</Sha>
+      <Sha>7e944f9655c0e44386f0412944684d42a6edd507</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.0.0-preview4.19163.2">
+    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.0.0-preview4.19169.2">
       <Uri>https://github.com/aspnet/AspNetCore-Tooling</Uri>
-      <Sha>057d4f35705187a0b553f83c6c3e5e101acef5d1</Sha>
+      <Sha>cfee40a19eb42f0c02365104c0a460e1025ad84c</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0-preview4-27511-44">
+    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0-preview4-27513-31">
       <Uri>https://devdiv.visualstudio.com/DevDiv/_git/DotNet-Trusted</Uri>
-      <Sha>639fa09d3d191bf5782da2061a6fd128427219fe</Sha>
+      <Sha>970655a04321f6447597d8fdd5e9d5e9c61513b6</Sha>
     </Dependency>
     <Dependency Name="NuGet.Build.Tasks" Version="5.0.0-preview1.5663">
       <Uri>https://github.com/nuget/nuget.client</Uri>
@@ -39,15 +39,20 @@
       <Sha>
       </Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Web" Version="3.0.100-preview4.19159.1">
+    <Dependency Name="Microsoft.NET.Sdk.Web" Version="3.0.100-preview4.19169.1">
       <Uri>https://github.com/aspnet/websdk</Uri>
-      <Sha>cc3d996a68cfa94071b5d4403e604ce401df7636</Sha>
+      <Sha>8e008f771a29f2c307262abe10f7fbcab294c3a0</Sha>
+    </Dependency>
+    <Dependency Name="ILLink.Tasks" Version="0.1.6-prerelease.19164.1">
+      <Uri>https://github.com/mono/linker</Uri>
+      <Sha>
+      </Sha>
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
-    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="1.0.0-beta.19161.14">
+    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="1.0.0-beta.19167.10">
       <Uri>https://github.com/dotnet/arcade</Uri>
-      <Sha>2ca74c76adc84f0459b4a0352034db463d0b910f</Sha>
+      <Sha>de7be3ba62b92e5c48c36876c851a14f154444af</Sha>
     </Dependency>
   </ToolsetDependencies>
 </Dependencies>
