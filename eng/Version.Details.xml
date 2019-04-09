@@ -29,9 +29,9 @@
       <Uri>https://devdiv.visualstudio.com/DevDiv/_git/DotNet-Trusted</Uri>
       <Sha>87dddf5c2f964da07729b671424f75dd06263a83</Sha>
     </Dependency>
-    <Dependency Name="NuGet.Build.Tasks" Version="5.0.0-preview1.5663">
+    <Dependency Name="NuGet.Build.Tasks" Version="5.1.0-rtm.5921">
       <Uri>https://github.com/nuget/nuget.client</Uri>
-      <Sha>cf25cc76caccfa6f68e4c74d7d326fef9f9aa3d4</Sha>
+      <Sha>27af96bdb7ba8d6d7ea9ad53fc76cd1d1aa80703</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Test.Sdk" Version="15.9.0">
       <Uri>https://github.com/microsoft/vstest</Uri>
