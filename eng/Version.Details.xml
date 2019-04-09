@@ -31,7 +31,7 @@
     </Dependency>
     <Dependency Name="NuGet.Build.Tasks" Version="5.0.0-preview1.5663">
       <Uri>https://github.com/nuget/nuget.client</Uri>
-      <Sha></Sha>
+      <Sha>cf25cc76caccfa6f68e4c74d7d326fef9f9aa3d4</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Test.Sdk" Version="15.9.0">
       <Uri>https://github.com/microsoft/vstest</Uri>
