@@ -417,15 +417,15 @@ function InitializeToolset() {
 
   $proj = Join-Path $ToolsetDir "restore.proj"
   $bl = if ($binaryLog) { "/bl:" + (Join-Path $LogDir "ToolsetRestore.binlog") } else { "" }
-  
+
   '<Project Sdk="Microsoft.DotNet.Arcade.Sdk"/>' | Set-Content $proj
-  MSBuild $proj $bl /t:__WriteToolsetLocation /noconsolelogger /p:__ToolsetLocationOutputFile=$toolsetLocationFile
-  
+  MSBuild $proj $bl /t:__WriteToolsetLocation /clp:ErrorsOnly`;NoSummary /p:__ToolsetLocationOutputFile=$toolsetLocationFile
+
   $path = Get-Content $toolsetLocationFile -TotalCount 1
   if (!(Test-Path $path)) {
     throw "Invalid toolset path: $path"
   }
-  
+
   return $global:_ToolsetBuildProj = $path
 }
 
@@ -461,7 +461,7 @@ function MSBuild() {
 
   $buildTool = InitializeBuildTool
 
-  $cmdArgs = "$($buildTool.Command) /m /nologo /clp:Summary /v:$verbosity /nr:$nodeReuse"
+  $cmdArgs = "$($buildTool.Command) /m /nologo /clp:Summary /v:$verbosity /nr:$nodeReuse /p:ContinuousIntegrationBuild=$ci"
 
   if ($warnAsError) { 
     $cmdArgs += " /warnaserror /p:TreatWarningsAsErrors=true" 
@@ -518,6 +518,10 @@ Create-Directory $TempDir
 Create-Directory $LogDir
 
 if ($ci) {
+  Write-Host "##vso[task.setvariable variable=Artifacts]$ArtifactsDir"
+  Write-Host "##vso[task.setvariable variable=Artifacts.Toolset]$ToolsetDir"
+  Write-Host "##vso[task.setvariable variable=Artifacts.Log]$LogDir"
+
   $env:TEMP = $TempDir
   $env:TMP = $TempDir
 }
