@@ -29,6 +29,7 @@
       <Uri>https://github.com/aspnet/AspNetCore-Tooling</Uri>
       <Sha>7fd95acc8d6a7b6f547f4e6fd41e6efbf526e428</Sha>
     </Dependency>
+    <!-- For coherency purposes, this version should be gated by the version of wpf routed via core setup -->
     <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0-preview6.19263.3" CoherentParentDependency="Microsoft.NETCore.App">
       <Uri>https://github.com/dotnet/wpf</Uri>
       <Sha>90a570d65d2e032196b9bad9d8b2bff783d0ccc3</Sha>
