@@ -5,13 +5,13 @@
       <Uri>https://github.com/dotnet/core-setup</Uri>
       <Sha>1dfb3faf2fe573b9a0c3e5a0b7f83a2992093c6d</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.0.100-preview6.19263.3">
+    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.0.100-preview6.19264.2">
       <Uri>https://github.com/dotnet/cli</Uri>
-      <Sha>7d55db72fa1628bf593b7bfe1cabeb32b5540fca</Sha>
+      <Sha>1df8d22ca164e4f1ff5e715b57458c93ccfc8056</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk" Version="3.0.100-preview6.19263.3">
+    <Dependency Name="Microsoft.NET.Sdk" Version="3.0.100-preview6.19264.1">
       <Uri>https://github.com/dotnet/sdk</Uri>
-      <Sha>a76e46b75ed94ba2ad6ee6497ef8d606599add4c</Sha>
+      <Sha>51ab900ef7b7f954e284347c913299711514101d</Sha>
     </Dependency>
     <Dependency Name="Microsoft.Build" Version="16.2.0-preview.19261.3">
       <Uri>https://github.com/Microsoft/msbuild</Uri>
@@ -21,18 +21,18 @@
       <Uri>https://github.com/Microsoft/visualfsharp</Uri>
       <Sha>42526fe359672a05fd562dc16a91a43d0fe047a7</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NETCore.Compilers" Version="3.2.0-beta1-19260-01">
+    <Dependency Name="Microsoft.NETCore.Compilers" Version="3.2.0-beta2-19265-01">
       <Uri>https://github.com/dotnet/roslyn</Uri>
-      <Sha>809a9166e1cd1f8d6a468669b1d317cdc8784027</Sha>
+      <Sha>b09e63fe85b118c19b320a47e26d1760a06276a0</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.0.0-preview6.19263.2">
+    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.0.0-preview6.19264.2">
       <Uri>https://github.com/aspnet/AspNetCore-Tooling</Uri>
-      <Sha>7fd95acc8d6a7b6f547f4e6fd41e6efbf526e428</Sha>
+      <Sha>face057d5fe9e48d1b75696843cffb22591c2c87</Sha>
     </Dependency>
     <!-- For coherency purposes, this version should be gated by the version of wpf routed via core setup -->
-    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0-preview6.19263.3" CoherentParentDependency="Microsoft.NETCore.App">
+    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0-preview6.19264.3" CoherentParentDependency="Microsoft.NETCore.App">
       <Uri>https://github.com/dotnet/wpf</Uri>
-      <Sha>90a570d65d2e032196b9bad9d8b2bff783d0ccc3</Sha>
+      <Sha>8cd5ce04b1918b063978b1a6661536bcba8bfb44</Sha>
     </Dependency>
     <Dependency Name="NuGet.Build.Tasks" Version="5.1.0-rtm.5921">
       <Uri>https://github.com/nuget/nuget.client</Uri>
@@ -57,9 +57,9 @@
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
-    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="1.0.0-beta.19263.3">
+    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="1.0.0-beta.19264.13">
       <Uri>https://github.com/dotnet/arcade</Uri>
-      <Sha>e6712584bba6e2f0e35a3704793c459ff97c09af</Sha>
+      <Sha>670f6ee1a619a2a7c84cfdfe2a1c84fbe94e1c6b</Sha>
     </Dependency>
   </ToolsetDependencies>
 </Dependencies>
