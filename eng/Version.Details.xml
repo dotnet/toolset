@@ -5,9 +5,9 @@
       <Uri>https://github.com/dotnet/core-setup</Uri>
       <Sha>c113140681cdb8224dffc2da8df3e2f9bcbdc4a0</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.0.100-preview7.19303.5">
+    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.0.100-preview7.19304.7">
       <Uri>https://github.com/dotnet/cli</Uri>
-      <Sha>fe9d2a3b01ef92942c6872946b148a1037587f6a</Sha>
+      <Sha>20152b3beeec7b9157ab4688494b52cb2fffb190</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Sdk" Version="3.0.100-preview7.19303.5">
       <Uri>https://github.com/dotnet/sdk</Uri>
@@ -53,15 +53,18 @@
     </Dependency>
     <Dependency Name="System.CodeDom" Version="4.6.0-preview7.19281.6">
       <Uri>https://github.com/dotnet/corefx</Uri>
-      <Sha></Sha>
+      <Sha>
+      </Sha>
     </Dependency>
     <Dependency Name="System.Security.Cryptography.ProtectedData" Version="4.6.0-preview7.19281.6">
       <Uri>https://github.com/dotnet/corefx</Uri>
-      <Sha></Sha>
+      <Sha>
+      </Sha>
     </Dependency>
     <Dependency Name="System.Text.Encoding.CodePages" Version="4.6.0-preview7.19281.6">
       <Uri>https://github.com/dotnet/corefx</Uri>
-      <Sha></Sha>
+      <Sha>
+      </Sha>
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
