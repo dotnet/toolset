@@ -51,17 +51,17 @@
       <Uri>https://github.com/mono/linker</Uri>
       <Sha>6f649c754d987c2fa2354b0897fb6f01fffeb22d</Sha>
     </Dependency>
-    <Dependency Name="System.CodeDom" Version="4.6.0-preview7.19281.6">
+    <Dependency Name="System.CodeDom" Version="4.6.0-preview7.19281.6" CoherentParentDependency="Microsoft.NETCore.App">
       <Uri>https://github.com/dotnet/corefx</Uri>
       <Sha>
       </Sha>
     </Dependency>
-    <Dependency Name="System.Security.Cryptography.ProtectedData" Version="4.6.0-preview7.19281.6">
+    <Dependency Name="System.Security.Cryptography.ProtectedData" Version="4.6.0-preview7.19281.6" CoherentParentDependency="Microsoft.NETCore.App">
       <Uri>https://github.com/dotnet/corefx</Uri>
       <Sha>
       </Sha>
     </Dependency>
-    <Dependency Name="System.Text.Encoding.CodePages" Version="4.6.0-preview7.19281.6">
+    <Dependency Name="System.Text.Encoding.CodePages" Version="4.6.0-preview7.19281.6" CoherentParentDependency="Microsoft.NETCore.App">
       <Uri>https://github.com/dotnet/corefx</Uri>
       <Sha>
       </Sha>
