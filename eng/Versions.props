@@ -70,9 +70,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/dotnet/corefx -->
-    <SystemCodeDomPackageVersion>4.6.0-preview7.19311.9</SystemCodeDomPackageVersion>
-    <SystemTextEncodingCodePagesPackageVersion>4.6.0-preview7.19311.9</SystemTextEncodingCodePagesPackageVersion>
-    <SystemSecurityCryptographyProtectedDataPackageVersion>4.6.0-preview7.19311.9</SystemSecurityCryptographyProtectedDataPackageVersion>
+    <SystemCodeDomPackageVersion>4.6.0-preview7.19312.5</SystemCodeDomPackageVersion>
+    <SystemTextEncodingCodePagesPackageVersion>4.6.0-preview7.19312.5</SystemTextEncodingCodePagesPackageVersion>
+    <SystemSecurityCryptographyProtectedDataPackageVersion>4.6.0-preview7.19312.5</SystemSecurityCryptographyProtectedDataPackageVersion>
   </PropertyGroup>
   <PropertyGroup>
     <MicrosoftDotNetPlatformAbstractionsPackageVersion>2.2.0-preview1-26620-03</MicrosoftDotNetPlatformAbstractionsPackageVersion>
