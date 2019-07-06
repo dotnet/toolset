@@ -21,7 +21,7 @@
       <Uri>https://github.com/dotnet/fsharp</Uri>
       <Sha>d1b64e6ac4899ea95ea664abce0f9f2c218df791</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NETCore.Compilers" Version="3.3.0-beta2-19354-03">
+    <Dependency Name="Microsoft.NETCore.Compilers" Version="3.3.0-beta2-19355-05">
       <Uri>https://github.com/dotnet/roslyn</Uri>
       <Sha>6b46f9a3a321bfe344d3ce58fc1839c548cd1bed</Sha>
     </Dependency>
