@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Dependencies>
   <ProductDependencies>
-    <Dependency Name="Microsoft.NETCore.App" Version="3.0.0-preview9-19410-01">
+    <Dependency Name="Microsoft.NETCore.App" Version="3.0.0-preview9-19410-03">
       <Uri>https://github.com/dotnet/core-setup</Uri>
-      <Sha>61a8d923f66aacb637d9fe73b89185536bcdcef1</Sha>
+      <Sha>17fc698aff0e17d7d77ec3e061ebf9b5baf950a5</Sha>
     </Dependency>
     <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.0.100-preview9.19408.12">
       <Uri>https://github.com/dotnet/cli</Uri>
@@ -30,7 +30,7 @@
       <Sha>30ef7e4b0196f977ce0be77d85d623bb62210c22</Sha>
     </Dependency>
     <!-- For coherency purposes, this version should be gated by the version of wpf routed via core setup -->
-    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0-preview9.19409.8" CoherentParentDependency="Microsoft.NETCore.App">
+    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0-preview9.19410.1" CoherentParentDependency="Microsoft.NETCore.App">
       <Uri>https://github.com/dotnet/wpf</Uri>
       <Sha>0cfd39fd5564407ac81ba0dfa4eda2d2d1a02c12</Sha>
     </Dependency>
