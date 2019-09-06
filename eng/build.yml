@@ -54,6 +54,7 @@ jobs:
                   /p:DotNetSymbolServerTokenMsdl=$(microsoft-symbol-server-pat)
                   /p:DotNetSymbolServerTokenSymWeb=$(symweb-symbol-server-pat)
                   /p:DotNetPublishUsingPipelines=$(_PublishUsingPipelines)
+                  /p:DotNetArtifactsCategory=$(_DotNetArtifactsCategory)
                   /p:PB_PublishType=$(_PublishType)
 
     steps:
