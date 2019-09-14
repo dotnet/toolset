@@ -17,6 +17,10 @@
       <Uri>https://github.com/microsoft/msbuild</Uri>
       <Sha>0f4c62feac0a5726f63b56472de7b1c1527459fc</Sha>
     </Dependency>
+    <Dependency Name="Microsoft.Build.Localization" Version="16.3.0-preview-19463-05">
+      <Uri>https://github.com/microsoft/msbuild</Uri>
+      <Sha>0f4c62feac0a5726f63b56472de7b1c1527459fc</Sha>
+    </Dependency>
     <Dependency Name="Microsoft.FSharp.Compiler" Version="10.6.0-beta.19454.10">
       <Uri>https://github.com/dotnet/fsharp</Uri>
       <Sha>0422ff293bb2cc722fe5021b85ef50378a9af823</Sha>

@@ -24,7 +24,7 @@
     <MicrosoftBuildPackageVersion>16.3.0</MicrosoftBuildPackageVersion>
     <MicrosoftBuildFrameworkPackageVersion>$(MicrosoftBuildPackageVersion)</MicrosoftBuildFrameworkPackageVersion>
     <MicrosoftBuildRuntimePackageVersion>$(MicrosoftBuildPackageVersion)</MicrosoftBuildRuntimePackageVersion>
-    <MicrosoftBuildLocalizationPackageVersion>$(MicrosoftBuildPackageVersion)</MicrosoftBuildLocalizationPackageVersion>
+    <MicrosoftBuildLocalizationPackageVersion>16.3.0-preview-19463-05</MicrosoftBuildLocalizationPackageVersion>
     <MicrosoftBuildUtilitiesCorePackageVersion>$(MicrosoftBuildPackageVersion)</MicrosoftBuildUtilitiesCorePackageVersion>
   </PropertyGroup>
   <PropertyGroup>
