@@ -14,7 +14,9 @@
   <PropertyGroup>
     <!-- Dependencies from https://github.com/dotnet/cli  -->
     <MicrosoftDotNetCliRuntimePackageVersion>3.0.100-rc2.19476.4</MicrosoftDotNetCliRuntimePackageVersion>
+    <!--  For tests -->
     <MicrosoftDotNetCliUtilsPackageVersion>2.2.402</MicrosoftDotNetCliUtilsPackageVersion>
+    <NugetFrameworksPackageVersion>5.2.0.3</NugetFrameworksPackageVersion>
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/dotnet/sdk -->

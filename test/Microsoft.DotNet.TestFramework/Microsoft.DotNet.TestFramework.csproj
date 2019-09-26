@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.DotNet.Cli.Utils" Version="$(MicrosoftDotNetCliUtilsPackageVersion)" />
+    <PackageReference Include="NuGet.Frameworks" Version="$(MicrosoftDotNetCliUtilsPackageVersion)" />
   </ItemGroup>
   
 </Project>
