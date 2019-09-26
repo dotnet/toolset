@@ -13,8 +13,8 @@
   <!-- Production Dependencies -->
   <PropertyGroup>
     <!-- Dependencies from https://github.com/dotnet/cli  -->
-    <MicrosoftDotNetCliRuntimePackageVersion>3.0.100-rc2.19467.7</MicrosoftDotNetCliRuntimePackageVersion>
-    <MicrosoftDotNetCliUtilsPackageVersion>3.0.100-rc2.19467.7</MicrosoftDotNetCliUtilsPackageVersion>
+    <MicrosoftDotNetCliRuntimePackageVersion>3.0.100-rc2.19476.4</MicrosoftDotNetCliRuntimePackageVersion>
+    <MicrosoftDotNetCliUtilsPackageVersion>3.0.100-rc2.19476.4</MicrosoftDotNetCliUtilsPackageVersion>
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/dotnet/sdk -->
