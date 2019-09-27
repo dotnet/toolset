@@ -5,13 +5,13 @@
       <Uri>https://github.com/dotnet/core-setup</Uri>
       <Sha>7d57652f33493fa022125b7f63aad0d70c52d810</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.0.100-rc2.19476.4">
+    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.0.101-servicing.19476.9">
       <Uri>https://github.com/dotnet/cli</Uri>
-      <Sha>6f7e6742e09ec89b2901e3d899bfcd8effc582f9</Sha>
+      <Sha>d264d42155a74215931920b24a6be356202614fb</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk" Version="3.0.100-rc2.19467.3">
+    <Dependency Name="Microsoft.NET.Sdk" Version="3.0.101-servicing.19476.2">
       <Uri>https://github.com/dotnet/sdk</Uri>
-      <Sha>b3a343bf8ed65f5208c5bb86c632856c5d107b1d</Sha>
+      <Sha>9cd501f50f426f24d98065d1617ee67cd4ce0d2d</Sha>
     </Dependency>
     <Dependency Name="Microsoft.Build" Version="16.3.0">
       <Uri>https://github.com/microsoft/msbuild</Uri>
@@ -46,9 +46,9 @@
       <Uri>https://github.com/microsoft/vstest</Uri>
       <Sha>55e7e45431c9c05656c999b902686e7402664573</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Web" Version="3.0.100-rc2.19465.1">
+    <Dependency Name="Microsoft.NET.Sdk.Web" Version="3.0.100-rc2.19476.1">
       <Uri>https://github.com/aspnet/websdk</Uri>
-      <Sha>002ea5ca7c699d925281abd8307556ec8eccb530</Sha>
+      <Sha>34dbc7b333f8fe4b120abaa1fda1813f20c2d667</Sha>
     </Dependency>
     <Dependency Name="ILLink.Tasks" Version="0.1.6-prerelease.19380.1">
       <Uri>https://github.com/mono/linker</Uri>
