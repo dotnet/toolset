@@ -16,7 +16,7 @@
     <MicrosoftDotNetCliRuntimePackageVersion>3.0.101-servicing.19503.4</MicrosoftDotNetCliRuntimePackageVersion>
     <!--  For tests -->
     <MicrosoftDotNetCliUtilsPackageVersion>2.2.402</MicrosoftDotNetCliUtilsPackageVersion>
-    <NugetFrameworksPackageVersion>5.2.0.3</NugetFrameworksPackageVersion>
+    <NugetFrameworksPackageVersion>5.3.0</NugetFrameworksPackageVersion>
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/dotnet/sdk -->
