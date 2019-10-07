@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Dependencies>
   <ProductDependencies>
-    <Dependency Name="Microsoft.NETCore.App.Runtime.win-x64" Version="3.0.0">
+    <Dependency Name="Microsoft.NETCore.App.Ref" Version="3.0.0" Pinned="true">
       <Uri>https://github.com/dotnet/core-setup</Uri>
       <Sha>7d57652f33493fa022125b7f63aad0d70c52d810</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.0.101-servicing.19476.9">
-      <Uri>https://github.com/dotnet/cli</Uri>
-      <Sha>d264d42155a74215931920b24a6be356202614fb</Sha>
+    <Dependency Name="Microsoft.NETCore.App.Runtime.win-x64" Version="3.0.1">
+      <Uri>https://github.com/dotnet/core-setup</Uri>
+      <Sha>f8bfa4242fb299c1d1a635c069dbfec7870a023b</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk" Version="3.0.101-servicing.19476.2">
+    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.0.101-servicing.19503.4">
+      <Uri>https://github.com/dotnet/cli</Uri>
+      <Sha>2bb5a58198c6d96aae157ea3a119867b57cd839d</Sha>
+    </Dependency>
+    <Dependency Name="Microsoft.NET.Sdk" Version="3.0.101-servicing.19477.3">
       <Uri>https://github.com/dotnet/sdk</Uri>
-      <Sha>9cd501f50f426f24d98065d1617ee67cd4ce0d2d</Sha>
+      <Sha>3819a21a612cd8bc15b6f6c4e361d18490469577</Sha>
     </Dependency>
     <Dependency Name="Microsoft.Build" Version="16.3.0">
       <Uri>https://github.com/microsoft/msbuild</Uri>
@@ -29,14 +33,14 @@
       <Uri>https://github.com/dotnet/roslyn</Uri>
       <Sha>66a912c9463eebe832cf742d2fe8bb2e1a4600ec</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.0.0">
+    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.0.1-servicing.19507.2">
       <Uri>https://github.com/aspnet/AspNetCore-Tooling</Uri>
-      <Sha>16b0ca4a5838c39c8852e6cf144232597e2bee2e</Sha>
+      <Sha>ae9d989c74c6f4850df8b612f4a91da87448a181</Sha>
     </Dependency>
     <!-- For coherency purposes, this version should be gated by the version of wpf routed via core setup -->
-    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.0" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
+    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.0.1-servicing.19480.1" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
       <Uri>https://github.com/dotnet/wpf</Uri>
-      <Sha>3e99215204ccf7ae18e7c654ebdd77c91b7140e2</Sha>
+      <Sha>d4121027999cb01b941481c774b42a2193775b93</Sha>
     </Dependency>
     <Dependency Name="NuGet.Build.Tasks" Version="5.3.0-rtm.6251">
       <Uri>https://github.com/NuGet/NuGet.Client</Uri>
@@ -46,9 +50,9 @@
       <Uri>https://github.com/microsoft/vstest</Uri>
       <Sha>55e7e45431c9c05656c999b902686e7402664573</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Web" Version="3.0.100-rc2.19476.1">
+    <Dependency Name="Microsoft.NET.Sdk.Web" Version="3.0.100-rc2.19503.2">
       <Uri>https://github.com/aspnet/websdk</Uri>
-      <Sha>34dbc7b333f8fe4b120abaa1fda1813f20c2d667</Sha>
+      <Sha>645b98f31edda31fda28cf9239a98f37196f2cf3</Sha>
     </Dependency>
     <Dependency Name="ILLink.Tasks" Version="0.1.6-prerelease.19380.1">
       <Uri>https://github.com/mono/linker</Uri>
