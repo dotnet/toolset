@@ -37,17 +37,17 @@
       <Uri>https://github.com/aspnet/AspNetCore</Uri>
       <Sha>af0a2048a207b49bee29de9629208afd8ba27da4</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="5.0.0-alpha1.19515.1">
+    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="5.0.0-alpha1.19517.12">
       <Uri>https://github.com/aspnet/AspNetCore-Tooling</Uri>
-      <Sha>9a8b07ac0b544bbc3cb69cf157383ce6b60eb570</Sha>
+      <Sha>5d3c4074fe2df12afefab2292e4644b4f2686b29</Sha>
     </Dependency>
-        <Dependency Name="Microsoft.WindowsDesktop.App" Version="5.0.0-alpha1.19516.6">
+    <Dependency Name="Microsoft.WindowsDesktop.App" Version="5.0.0-alpha1.19516.6">
       <Uri>https://github.com/dotnet/windowsdesktop</Uri>
       <Sha>90199f6947ffff8ba397cb3d921d7fbce3958d3a</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="5.0.0-alpha1.19462.16" CoherentParentDependency="Microsoft.WindowsDesktop.App">
       <Uri>https://github.com/dotnet/wpf</Uri>
-      <Sha>2e840efbac4cf916fe35d22d279d42ed02915cc6</Sha>
+      <Sha>11a8ba5060577dbddae4303e53583f8d4a82f172</Sha>
       <Sha>11a8ba5060577dbddae4303e53583f8d4a82f172</Sha>
     </Dependency>
     <Dependency Name="NuGet.Build.Tasks" Version="5.3.0-rtm.6192">
