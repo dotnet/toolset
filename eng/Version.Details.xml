@@ -9,6 +9,10 @@
       <Uri>https://github.com/dotnet/core-setup</Uri>
       <Sha>4de60f765b2d98b67f59390f40d7ee4c72a2daca</Sha>
     </Dependency>
+    <Dependency Name="Microsoft.Extensions.DependencyModel" Version="5.0.0-alpha1.19515.17">
+      <Uri>https://github.com/dotnet/core-setup</Uri>
+      <Sha>0ceceab994c8e965bf50b11fc230dc2ea67aa1ec</Sha>
+    </Dependency>
     <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="5.0.100-alpha1.19516.1">
       <Uri>https://github.com/dotnet/cli</Uri>
       <Sha>fb9280b4458ebf8a5d3679e85f0878d07d6d0635</Sha>
@@ -80,9 +84,9 @@
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
-    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="5.0.0-beta.19515.2">
+    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="5.0.0-beta.19518.2">
       <Uri>https://github.com/dotnet/arcade</Uri>
-      <Sha>cbfa29d4e859622ada3d226f90f103f659665d31</Sha>
+      <Sha>f59f1ebe9b293ad523d3bfa4e5cffc663708ef11</Sha>
     </Dependency>
   </ToolsetDependencies>
 </Dependencies>
