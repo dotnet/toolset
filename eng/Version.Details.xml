@@ -37,7 +37,7 @@
       <Uri>https://github.com/dotnet/CliCommandLineParser</Uri>
       <Sha>0e89c2116ad28e404ba56c14d1c3f938caa25a01</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.Build" Version="16.5.0-preview-19531-02">
+    <Dependency Name="Microsoft.Build" Version="16.5.0-preview-19531-03">
       <Uri>https://github.com/microsoft/msbuild</Uri>
       <Sha>f2a49edf034df30a1ad642bb5bbac15725cd05cb</Sha>
     </Dependency>
