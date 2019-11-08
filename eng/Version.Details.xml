@@ -37,9 +37,9 @@
       <Uri>https://github.com/dotnet/CliCommandLineParser</Uri>
       <Sha>0e89c2116ad28e404ba56c14d1c3f938caa25a01</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.Build" Version="16.5.0-preview-19557-11">
+    <Dependency Name="Microsoft.Build" Version="16.5.0-preview-19558-01">
       <Uri>https://github.com/microsoft/msbuild</Uri>
-      <Sha>ab7bc2bef6bb55cb6f1c1acec3acd9c2ab319dda</Sha>
+      <Sha>b6e7d1e07e28ac7f8e70ebee110dcfe795c30adf</Sha>
     </Dependency>
     <Dependency Name="Microsoft.FSharp.Compiler" Version="10.7.0-beta.19460.5">
       <Uri>https://github.com/dotnet/fsharp</Uri>
