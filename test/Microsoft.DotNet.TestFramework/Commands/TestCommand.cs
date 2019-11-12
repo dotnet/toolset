@@ -26,6 +26,7 @@ namespace Microsoft.DotNet.Tools.Test.Utilities
         public int TimeoutMiliseconds { get; set; } = Timeout.Infinite;
 
         public Dictionary<string, string> Environment { get; } = new Dictionary<string, string>();
+        public List<string> EnvironmentToRemove { get; } = new List<string>();
 
         public event DataReceivedEventHandler ErrorDataReceived;
 
@@ -149,6 +150,7 @@ namespace Microsoft.DotNet.Tools.Test.Utilities
 
             RemoveCliGeneratedEnvironmentVariablesFrom(psi);
 
+            RemoveEnvironmentVariablesTo(psi);
             AddEnvironmentVariablesTo(psi);
 
             AddWorkingDirectoryTo(psi);
@@ -227,7 +229,13 @@ namespace Microsoft.DotNet.Tools.Test.Utilities
             }
         }
 
-        
+        private void RemoveEnvironmentVariablesTo(ProcessStartInfo psi)
+        {
+            foreach (var name in EnvironmentToRemove)
+            {
+                psi.Environment.Remove(name);
+            }
+        }
 
         private void AddEnvironmentVariablesTo(ProcessStartInfo psi)
         {
