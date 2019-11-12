@@ -40,6 +40,14 @@ namespace Microsoft.DotNet.Tools.Test.Utilities
             
             return subject;
         }
+
+        public static TCommand WithRemovingEnvironmentVariable<TCommand>(this TCommand subject, params string[] names)
+            where TCommand : TestCommand
+        {
+            subject.EnvironmentToRemove.AddRange(names);
+
+            return subject;
+        }
         
         public static TCommand WithOutputDataReceivedHandler<TCommand>(this TCommand subject, Action<string> writeLine) where TCommand : TestCommand
         {

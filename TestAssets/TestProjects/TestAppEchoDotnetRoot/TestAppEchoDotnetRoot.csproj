@@ -4,5 +4,6 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <OutputType>Exe</OutputType>
+    <UseAppHost>false</UseAppHost>
   </PropertyGroup>
 </Project>

@@ -22,6 +22,7 @@ namespace Microsoft.DotNet.Cli.Run.Tests
 
             new RunCommand()
                 .WithWorkingDirectory(_dotnetRootEchoProject.Value)
+                .WithRemovingEnvironmentVariable("DOTNET_ROOT", "DOTNET_ROOT(x86)")
                 .WithoutSettingDotnetRootEnvironmentVariable()
                 .ExecuteWithCapturedOutput("--no-build")
                 .Should().Pass()
