@@ -81,9 +81,9 @@
       <Uri>https://github.com/aspnet/websdk</Uri>
       <Sha>6591449d9af1878c0689f002e584536dde341f75</Sha>
     </Dependency>
-    <Dependency Name="ILLink.Tasks" Version="0.1.6-prerelease.19564.1">
+    <Dependency Name="ILLink.Tasks" Version="0.1.6-prerelease.19565.1">
       <Uri>https://github.com/mono/linker</Uri>
-      <Sha>d5e90f5814c48cbae141e93f13194934e73c1265</Sha>
+      <Sha>ab0e806c7cc3072c6c90feca4e0dfbcc1ff09a9e</Sha>
     </Dependency>
     <Dependency Name="System.CodeDom" Version="5.0.0-alpha.1.19556.7" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
       <Uri>https://github.com/dotnet/corefx</Uri>
