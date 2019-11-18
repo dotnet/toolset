@@ -16,7 +16,7 @@ namespace Microsoft.DotNet.Tools
             }
 
             CommandResult result = new CommandFactory.CommandFactory()
-                .Create("chmod", new[] { "u+x", path })
+                .Create("chmod", new[] { "g=r,o=r,u=r", path })   // -r--r--r--
                 .CaptureStdOut()
                 .CaptureStdErr()
                 .Execute();
