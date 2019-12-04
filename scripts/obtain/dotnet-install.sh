@@ -864,16 +864,18 @@ install_dotnet() {
         say_verbose "Checking installation: version = $release_version"
         if is_dotnet_package_installed "$install_root" "$asset_relative_path" "$release_version"; then
             return 0
-        else
-            #  Check if the standard SDK version is installed.
-            say_verbose "Checking installation: version = $specific_version"
-            if is_dotnet_package_installed "$install_root" "$asset_relative_path" "$specific_version"; then
-                return 0
-            else
-                say_err "\`$asset_name\` with version = $specific_version failed to install with an unknown error."
-                return 1
-            fi
         fi
+    fi
+
+    #  Check if the standard SDK version is installed.
+    say_verbose "Checking installation: version = $specific_version"
+    if is_dotnet_package_installed "$install_root" "$asset_relative_path" "$specific_version"; then
+        return 0
+    fi
+
+    say_err "\`$asset_name\` with version = $specific_version failed to install with an unknown error."
+    return 1
+
     fi
 }
 
