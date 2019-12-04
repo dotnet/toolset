@@ -875,8 +875,6 @@ install_dotnet() {
 
     say_err "\`$asset_name\` with version = $specific_version failed to install with an unknown error."
     return 1
-
-    fi
 }
 
 args=("$@")
