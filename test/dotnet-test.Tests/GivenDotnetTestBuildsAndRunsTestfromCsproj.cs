@@ -234,7 +234,7 @@ namespace Microsoft.DotNet.Cli.Test.Tests
         [Fact]
         public void TestWillCreateTrxLoggerInTheSpecifiedResultsDirectoryBySwitch()
         {
-            Assert.True(false);
+            Assert.True(false); // -- V2
             // Copy and restore VSTestCore project in output directory of project dotnet-vstest.Tests
             var testProjectDirectory = this.CopyAndRestoreVSTestDotNetCoreTestApp("6");
 
