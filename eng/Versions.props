@@ -43,7 +43,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/aspnet/AspNetCore-Tooling -->
-    <MicrosoftNETSdkRazorPackageVersion>5.0.0-alpha.1.19606.1</MicrosoftNETSdkRazorPackageVersion>
+    <MicrosoftNETSdkRazorPackageVersion>5.0.0-alpha.1.19607.1</MicrosoftNETSdkRazorPackageVersion>
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/aspnet/websdk -->
