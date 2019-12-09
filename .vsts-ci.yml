@@ -28,6 +28,14 @@ variables:
       value: true
     - name: _PublishType
       value: blob
+  - ${{ if ne(variables['System.TeamProject'], 'public') }}:
+    - group: DotNet-MSRC-Storage
+    - name: _InternalRuntimeDownloadArgs
+      value: /p:DotNetRuntimeSourceFeed=https://dotnetclimsrc.blob.core.windows.net/dotnet
+             /p:DotNetRuntimeSourceFeedKey=$(dotnetclimsrc-read-sas-token-base64)
+  - ${{ if eq(variables['System.TeamProject'], 'public') }}:
+    - name: _InternalRuntimeDownloadArgs
+      value: ''
 
 stages:
 - stage: build
