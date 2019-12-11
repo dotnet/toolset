@@ -57,9 +57,9 @@
       <Uri>https://github.com/aspnet/AspNetCore</Uri>
       <Sha>0792e9a4f56de47580c4490c27ca453934552246</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="5.0.0-alpha.1.19608.10">
+    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="5.0.0-alpha.1.19610.9">
       <Uri>https://github.com/aspnet/AspNetCore-Tooling</Uri>
-      <Sha>24c09733a7be505320566eb146c59d2ac5ecf3aa</Sha>
+      <Sha>c40e7f691e510a682569caca55787b36edb5fed4</Sha>
     </Dependency>
     <Dependency Name="Microsoft.WindowsDesktop.App" Version="5.0.0-alpha.1.19564.2">
       <Uri>https://github.com/dotnet/windowsdesktop</Uri>
