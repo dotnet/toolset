@@ -53,9 +53,9 @@
       <Uri>https://github.com/dotnet/roslyn</Uri>
       <Sha>ff930dec4565e2bc424ad3bf3e22ecb20542c87d</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.AspNetCore.DeveloperCertificates.XPlat" Version="5.0.0-alpha1.19612.8">
+    <Dependency Name="Microsoft.AspNetCore.DeveloperCertificates.XPlat" Version="5.0.0-alpha.1.19614.7">
       <Uri>https://github.com/aspnet/AspNetCore</Uri>
-      <Sha>fde783911b0b671dc4307ef5bcb2a9bc5e4a51bf</Sha>
+      <Sha>5e706ae27935f021e7d355b20bb647c3d5b74d9e</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Sdk.Razor" Version="5.0.0-alpha.1.19613.3">
       <Uri>https://github.com/aspnet/AspNetCore-Tooling</Uri>
