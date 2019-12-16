@@ -61,13 +61,13 @@
       <Uri>https://github.com/aspnet/AspNetCore-Tooling</Uri>
       <Sha>c7815ea4f2e52697d621b32c013b0ae7cc9544ec</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.WindowsDesktop.App" Version="5.0.0-alpha.1.19614.3">
+    <Dependency Name="Microsoft.WindowsDesktop.App" Version="5.0.0-alpha.1.19615.2">
       <Uri>https://github.com/dotnet/windowsdesktop</Uri>
-      <Sha>fcd793481497785779d2d1b099d6032d730cb12d</Sha>
+      <Sha>15710a4f591b2da305b2d73c0f5b7976a8409dc2</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="5.0.0-alpha.1.19614.3" CoherentParentDependency="Microsoft.WindowsDesktop.App">
+    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="5.0.0-alpha.1.19615.2" CoherentParentDependency="Microsoft.WindowsDesktop.App">
       <Uri>https://github.com/dotnet/wpf</Uri>
-      <Sha>f4024b0d805f8efbc75e5e8818c3b08eae8c799e</Sha>
+      <Sha>21630ca29b891d743c1a2affd43e5a068df8cf81</Sha>
     </Dependency>
     <Dependency Name="NuGet.Build.Tasks" Version="5.4.0-rtm.6292">
       <Uri>https://github.com/NuGet/NuGet.Client</Uri>
