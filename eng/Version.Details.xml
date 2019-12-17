@@ -49,9 +49,9 @@
       <Uri>https://github.com/dotnet/fsharp</Uri>
       <Sha>e85fb1477c645f9b9fa57deeb5ccbce01f300f1d</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NETCore.Compilers" Version="3.4.0-beta4-19562-05">
+    <Dependency Name="Microsoft.Net.Compilers.Toolset" Version="3.5.0-beta1-19606-04">
       <Uri>https://github.com/dotnet/roslyn</Uri>
-      <Sha>ff930dec4565e2bc424ad3bf3e22ecb20542c87d</Sha>
+      <Sha>d2bd58c62f9104d66f415141a1a27b665c78690c</Sha>
     </Dependency>
     <Dependency Name="Microsoft.AspNetCore.DeveloperCertificates.XPlat" Version="5.0.0-alpha.1.19616.1">
       <Uri>https://github.com/aspnet/AspNetCore</Uri>
@@ -69,9 +69,9 @@
       <Uri>https://github.com/dotnet/wpf</Uri>
       <Sha>21630ca29b891d743c1a2affd43e5a068df8cf81</Sha>
     </Dependency>
-    <Dependency Name="NuGet.Build.Tasks" Version="5.4.0-rtm.6292">
+    <Dependency Name="NuGet.Build.Tasks" Version="5.5.0-preview.1.6319">
       <Uri>https://github.com/NuGet/NuGet.Client</Uri>
-      <Sha>6f8eb3a2e1db6b458451b9cfd2a4f5557769b041</Sha>
+      <Sha>ba2a72ac9afd9e7260798a6ad14088297570b350</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Test.Sdk" Version="16.3.0">
       <Uri>https://github.com/microsoft/vstest</Uri>
