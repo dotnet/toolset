@@ -197,7 +197,6 @@ namespace Microsoft.DotNet.Tools.Tool.Restore
             {
                 _reporter.WriteLine(string.Join(Environment.NewLine,
                     toolRestoreResults.Where(r => r.IsSuccess).Select(r => r.Message)));
-                _reporter.WriteLine();
                 _reporter.WriteLine(LocalizableStrings.LocalToolsRestoreWasSuccessful.Green());
 
                 return 0;
