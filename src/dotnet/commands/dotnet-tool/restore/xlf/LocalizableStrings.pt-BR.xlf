@@ -70,8 +70,8 @@
         <note />
       </trans-unit>
       <trans-unit id="RestoreFailed">
-        <source>Restore failed.</source>
-        <target state="translated">Falha na restauração.</target>
+        <source>Tools restore failed.</source>
+        <target state="needs-review-translation">Falha na restauração.</target>
         <note />
       </trans-unit>
       <trans-unit id="CommandsMismatch">
@@ -95,8 +95,8 @@
         <note />
       </trans-unit>
       <trans-unit id="LocalToolsRestoreWasSuccessful">
-        <source>Restore was successful.</source>
-        <target state="translated">A restauração foi bem-sucedida.</target>
+        <source>Tools restore was successful.</source>
+        <target state="needs-review-translation">A restauração foi bem-sucedida.</target>
         <note />
       </trans-unit>
       <trans-unit id="PackagesCommandNameCollisionConclusion">
@@ -112,8 +112,8 @@
         <note />
       </trans-unit>
       <trans-unit id="RestorePartiallyFailed">
-        <source>Restore partially failed.</source>
-        <target state="translated">Falha parcial na restauração.</target>
+        <source>Tools restore partially failed.</source>
+        <target state="needs-review-translation">Falha parcial na restauração.</target>
         <note />
       </trans-unit>
     </body>
