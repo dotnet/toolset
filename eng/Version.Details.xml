@@ -29,9 +29,9 @@
       <Uri>https://github.com/dotnet/runtime</Uri>
       <Sha>ff03a08accc88651d6b4c34c23d502131b91b6c7</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk" Version="5.0.100-alpha.1.20058.3">
+    <Dependency Name="Microsoft.NET.Sdk" Version="5.0.100-alpha.1.20061.1">
       <Uri>https://github.com/dotnet/sdk</Uri>
-      <Sha>2c54179393117f31af0b7025e5daa3c272204344</Sha>
+      <Sha>e281ba6e86b96e3e1f5510b3e661ea8aa850837e</Sha>
     </Dependency>
     <Dependency Name="Microsoft.DotNet.Cli.CommandLine" Version="1.0.0-preview.19208.1">
       <Uri>https://github.com/dotnet/CliCommandLineParser</Uri>
