@@ -61,9 +61,9 @@
       <Uri>https://github.com/dotnet/aspnetcore-tooling</Uri>
       <Sha>1ed35593a6d964bb2301ac59ce3e982ab8c95482</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.WindowsDesktop.App" Version="5.0.0-alpha.1.20077.1">
+    <Dependency Name="Microsoft.WindowsDesktop.App" Version="5.0.0-alpha.1.20078.1">
       <Uri>https://github.com/dotnet/windowsdesktop</Uri>
-      <Sha>8b2b64ef26ddc3208df57623b15d6eff400e5321</Sha>
+      <Sha>ab3705f7375844681e8775cf38aebcefad8cafc4</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="5.0.0-alpha.1.20073.4" CoherentParentDependency="Microsoft.WindowsDesktop.App">
       <Uri>https://github.com/dotnet/wpf</Uri>
