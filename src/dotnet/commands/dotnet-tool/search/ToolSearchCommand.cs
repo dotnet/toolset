@@ -12,19 +12,19 @@ namespace Microsoft.DotNet.Tools.Tool.Search
 {
     internal class ToolSearchCommand : CommandBase
     {
-        private readonly INugetSearchApiRequest _nugetSearchApiRequest;
+        private readonly INugetToolSearchApiRequest _nugetToolSearchApiRequest;
         private readonly AppliedOption _options;
         private readonly SearchResultPrinter _searchResultPrinter;
 
         public ToolSearchCommand(
             AppliedOption options,
             ParseResult result,
-            INugetSearchApiRequest nugetSearchApiRequest = null
+            INugetToolSearchApiRequest nugetToolSearchApiRequest = null
         )
             : base(result)
         {
             _options = options ?? throw new ArgumentNullException(nameof(options));
-            _nugetSearchApiRequest = nugetSearchApiRequest ?? new NugetSearchApiRequest();
+            _nugetToolSearchApiRequest = nugetToolSearchApiRequest ?? new NugetToolSearchApiRequest();
             _searchResultPrinter = new SearchResultPrinter(Reporter.Output);
         }
 
@@ -34,7 +34,7 @@ namespace Microsoft.DotNet.Tools.Tool.Search
             NugetSearchApiParameter nugetSearchApiParameter = new NugetSearchApiParameter(_options);
             IReadOnlyCollection<SearchResultPackage> searchResultPackages =
                 NugetSearchApiResultDeserializer.Deserialize(
-                    _nugetSearchApiRequest.GetResult(nugetSearchApiParameter));
+                    _nugetToolSearchApiRequest.GetResult(nugetSearchApiParameter).GetAwaiter().GetResult());
 
             _searchResultPrinter.Print(isDetailed, searchResultPackages);
 

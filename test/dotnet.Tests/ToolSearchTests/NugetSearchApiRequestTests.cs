@@ -12,7 +12,7 @@ namespace dotnet.Tests.ToolSearchTests
         [Fact]
         public void WhenPassedInRequestParametersItCanConstructTheUrl()
         {
-            NugetSearchApiRequest.ConstructUrl("mytool", 3, 4, true, "1.0.0")
+            NugetToolSearchApiRequest.ConstructUrl("mytool", 3, 4, true, "1.0.0")
                 .AbsoluteUri
                 .Should().Be(
                     "https://azuresearch-usnc.nuget.org/query?q=mytool&packageType=dotnettool&skip=3&take=4&prerelease=true&semVerLevel=1.0.0");
@@ -21,7 +21,7 @@ namespace dotnet.Tests.ToolSearchTests
         [Fact]
         public void WhenPassedWithoutParameterItCanConstructTheUrl()
         {
-            NugetSearchApiRequest.ConstructUrl()
+            NugetToolSearchApiRequest.ConstructUrl()
                 .AbsoluteUri
                 .Should().Be(
                     "https://azuresearch-usnc.nuget.org/query?packageType=dotnettool");

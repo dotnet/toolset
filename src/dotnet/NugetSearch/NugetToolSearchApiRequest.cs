@@ -5,13 +5,14 @@ using System;
 using System.Collections.Specialized;
 using System.Net.Http;
 using System.Threading;
+using System.Threading.Tasks;
 using System.Web;
 
 namespace Microsoft.DotNet.NugetSearch
 {
-    internal class NugetSearchApiRequest : INugetSearchApiRequest
+    internal class NugetToolSearchApiRequest : INugetToolSearchApiRequest
     {
-        public string GetResult(NugetSearchApiParameter nugetSearchApiParameter)
+        public async Task<string> GetResult(NugetSearchApiParameter nugetSearchApiParameter)
         {
             var queryUrl = ConstructUrl(
                 nugetSearchApiParameter.SearchTerm,
@@ -22,7 +23,7 @@ namespace Microsoft.DotNet.NugetSearch
 
             var httpClient = new HttpClient();
             var cancellation = new CancellationTokenSource(TimeSpan.FromSeconds(10));
-            HttpResponseMessage response = httpClient.GetAsync(queryUrl, cancellation.Token).Result;
+            HttpResponseMessage response = await httpClient.GetAsync(queryUrl, cancellation.Token);
             if (!response.IsSuccessStatusCode)
             {
                 if ((int)response.StatusCode >= 500 && (int)response.StatusCode < 600)
@@ -39,7 +40,7 @@ namespace Microsoft.DotNet.NugetSearch
                         queryUrl.AbsoluteUri, response.ReasonPhrase, response.StatusCode));
             }
 
-            return response.Content.ReadAsStringAsync().Result;
+            return await response.Content.ReadAsStringAsync(cancellation.Token);
         }
 
         internal static Uri ConstructUrl(string searchTerm = null, int? skip = null, int? take = null,
