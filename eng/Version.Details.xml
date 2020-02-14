@@ -13,9 +13,9 @@
       <Uri>https://github.com/dotnet/cli</Uri>
       <Sha>93366e0aff71dab53ffe0d673cace869b7a7f963</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk" Version="3.1.103-servicing.20114.3">
+    <Dependency Name="Microsoft.NET.Sdk" Version="3.1.103-servicing.20114.5">
       <Uri>https://github.com/dotnet/sdk</Uri>
-      <Sha>df853d7d0a5101b3b280ccdf069703ed50879fc7</Sha>
+      <Sha>922c8eefc41632df5a5e052daa8aa946bc298000</Sha>
     </Dependency>
     <Dependency Name="Microsoft.Build" Version="16.4.0">
       <Uri>https://github.com/microsoft/msbuild</Uri>
@@ -50,9 +50,9 @@
       <Uri>https://github.com/microsoft/vstest</Uri>
       <Sha>55e7e45431c9c05656c999b902686e7402664573</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Web" Version="3.1.102-servicing.20105.3">
+    <Dependency Name="Microsoft.NET.Sdk.Web" Version="3.1.103-servicing.20114.3">
       <Uri>https://github.com/aspnet/websdk</Uri>
-      <Sha>0c049311988f885331baaafcc42a279ddff08589</Sha>
+      <Sha>e36241ff73bac1ae2808d8fbcda13c458b36e9a8</Sha>
     </Dependency>
     <Dependency Name="ILLink.Tasks" Version="0.1.6-prerelease.19380.1">
       <Uri>https://github.com/mono/linker</Uri>

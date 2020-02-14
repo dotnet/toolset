@@ -17,7 +17,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/dotnet/sdk -->
-    <MicrosoftNETSdkPackageVersion>3.1.103-servicing.20114.3</MicrosoftNETSdkPackageVersion>
+    <MicrosoftNETSdkPackageVersion>3.1.103-servicing.20114.5</MicrosoftNETSdkPackageVersion>
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/Microsoft/msbuild -->
@@ -41,7 +41,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/aspnet/websdk -->
-    <MicrosoftNETSdkWebPackageVersion>3.1.102-servicing.20105.3</MicrosoftNETSdkWebPackageVersion>
+    <MicrosoftNETSdkWebPackageVersion>3.1.103-servicing.20114.3</MicrosoftNETSdkWebPackageVersion>
     <MicrosoftNETSdkPublishPackageVersion>$(MicrosoftNETSdkWebPackageVersion)</MicrosoftNETSdkPublishPackageVersion>
     <MicrosoftNETSdkWebProjectSystemPackageVersion>$(MicrosoftNETSdkWebPackageVersion)</MicrosoftNETSdkWebProjectSystemPackageVersion>
     <MicrosoftNETSdkWorkerPackageVersion>$(MicrosoftNETSdkWebPackageVersion)</MicrosoftNETSdkWorkerPackageVersion>
