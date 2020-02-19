@@ -9,9 +9,9 @@
       <Uri>https://github.com/dotnet/core-setup</Uri>
       <Sha>1a277d06b515ada913c1e9a25d98f770da503535</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.103-servicing.20118.1">
+    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.103-servicing.20118.5">
       <Uri>https://github.com/dotnet/cli</Uri>
-      <Sha>c23fe922181c6af44fcd28b52c71b4c7ce9fe5a2</Sha>
+      <Sha>51bdbe62ad2e923e95abbe85f8067f5aa69443c2</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Sdk" Version="3.1.103-servicing.20114.5">
       <Uri>https://github.com/dotnet/sdk</Uri>
