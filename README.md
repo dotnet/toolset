@@ -9,4 +9,4 @@ For more information, see [dotnet/announcements#119 "Consolidating .NET GitHub r
 If you are looking for the latest nightly of the .NET Core SDK, see https://github.com/dotnet/core-sdk.
 
 # Build status
-|[![Build Status](https://dev.azure.com/dnceng/internal/_apis/build/status/287)](https://dev.azure.com/dnceng/internal/_build?definitionId=287))|
+[![Build Status](https://dev.azure.com/dnceng/internal/_apis/build/status/287)](https://dev.azure.com/dnceng/internal/_build?definitionId=287)
