@@ -3,11 +3,11 @@
   <ProductDependencies>
     <Dependency Name="Microsoft.NETCore.App.Runtime.win-x64" Version="3.1.4">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup</Uri>
-      <Sha>cca7c49921d08bd9e70fa799b8d6e9abb55d1c45</Sha>
+      <Sha>3c16cbb071d42984dce5b16a183eedff71a47d23</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NETCore.App.Internal" Version="3.1.4-servicing.20203.4">
+    <Dependency Name="Microsoft.NETCore.App.Internal" Version="3.1.4-servicing.20208.2">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup</Uri>
-      <Sha>cca7c49921d08bd9e70fa799b8d6e9abb55d1c45</Sha>
+      <Sha>3c16cbb071d42984dce5b16a183eedff71a47d23</Sha>
     </Dependency>
     <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.202-servicing.20208.4">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
@@ -72,7 +72,7 @@
     </Dependency>
     <Dependency Name="System.Text.Json" Version="4.7.2" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-corefx</Uri>
-      <Sha>aa650a2cf7cad8f234926b5e374cb2f006065db2</Sha>
+      <Sha>d14f55bd2920bb96138518159d573c09351d6ace</Sha>
     </Dependency>
     <Dependency Name="System.Resources.Extensions" Version="4.7.0" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
       <Uri>https://github.com/dotnet/corefx</Uri>
