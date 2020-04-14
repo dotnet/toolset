@@ -71,6 +71,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/dotnet/corefx -->
+    <SystemTextJsonPackageVersion>4.7.2</SystemTextJsonPackageVersion>
     <SystemCodeDomPackageVersion>4.7.0</SystemCodeDomPackageVersion>
     <SystemTextEncodingCodePagesPackageVersion>4.7.0</SystemTextEncodingCodePagesPackageVersion>
     <SystemSecurityCryptographyProtectedDataPackageVersion>4.7.0</SystemSecurityCryptographyProtectedDataPackageVersion>
