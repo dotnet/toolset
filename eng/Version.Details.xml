@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Dependencies>
   <ProductDependencies>
-    <Dependency Name="Microsoft.NETCore.App.Runtime.win-x64" Version="3.1.2">
-      <Uri>https://github.com/dotnet/core-setup</Uri>
-      <Sha>916b5cba268e1e1e803243004f4276cf40b2dda8</Sha>
+    <Dependency Name="Microsoft.NETCore.App.Runtime.win-x64" Version="3.1.4">
+      <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup</Uri>
+      <Sha>0c2e69caa609d5164e16df91d6d646eb9ed74640</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NETCore.App.Internal" Version="3.1.2-servicing.20067.4">
-      <Uri>https://github.com/dotnet/core-setup</Uri>
-      <Sha>916b5cba268e1e1e803243004f4276cf40b2dda8</Sha>
+    <Dependency Name="Microsoft.NETCore.App.Internal" Version="3.1.4-servicing.20221.3">
+      <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup</Uri>
+      <Sha>0c2e69caa609d5164e16df91d6d646eb9ed74640</Sha>
     </Dependency>
     <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.300-preview.20229.1">
       <Uri>https://github.com/dotnet/cli</Uri>
@@ -38,9 +38,9 @@
       <Sha>a8242d79df31dbff528c185dd62c290b7cc262de</Sha>
     </Dependency>
     <!-- For coherency purposes, this version should be gated by the version of wpf routed via core setup -->
-    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.1.2-servicing.20066.4" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
-      <Uri>https://github.com/dotnet/wpf</Uri>
-      <Sha>589ace3c9fdfa0f1ea1640b82304a6a7ac597871</Sha>
+    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.1.4-servicing.20213.3" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
+      <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-wpf</Uri>
+      <Sha>847da8feefa286affd3f458fc3fdcedcd0d93869</Sha>
     </Dependency>
     <Dependency Name="NuGet.Build.Tasks" Version="5.6.0-rtm.6591">
       <Uri>https://github.com/NuGet/NuGet.Client</Uri>
@@ -66,13 +66,13 @@
       <Uri>https://github.com/dotnet/corefx</Uri>
       <Sha>0f7f38c4fd323b26da10cce95f857f77f0f09b48</Sha>
     </Dependency>
-    <Dependency Name="System.Text.Encoding.CodePages" Version="4.7.0" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
-      <Uri>https://github.com/dotnet/corefx</Uri>
-      <Sha>0f7f38c4fd323b26da10cce95f857f77f0f09b48</Sha>
+    <Dependency Name="System.Text.Encoding.CodePages" Version="4.7.1" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
+      <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-corefx</Uri>
+      <Sha>059a4a19e602494bfbed473dbbb18f2dbfbd0878</Sha>
     </Dependency>
-    <Dependency Name="System.Resources.Extensions" Version="4.7.0" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
-      <Uri>https://github.com/dotnet/corefx</Uri>
-      <Sha>0f7f38c4fd323b26da10cce95f857f77f0f09b48</Sha>
+    <Dependency Name="System.Resources.Extensions" Version="4.7.1" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
+      <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-corefx</Uri>
+      <Sha>059a4a19e602494bfbed473dbbb18f2dbfbd0878</Sha>
     </Dependency>
     <!-- Keep this dependency at the bottom of ProductDependencies, else it will be picked as the parent for CoherentParentDependencies -->
     <Dependency Name="Microsoft.NETCore.App.Ref" Version="3.1.0" Pinned="true">
