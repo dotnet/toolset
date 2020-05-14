@@ -2,20 +2,20 @@
 <Dependencies>
   <ProductDependencies>
     <Dependency Name="Microsoft.NETCore.App.Runtime.win-x64" Version="3.1.4">
-      <Uri>https://github.com/dotnet/core-setup</Uri>
-      <Sha>57d5bbb58f17a8cb3a82c81839c9379b4fcfe0d8</Sha>
+      <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup</Uri>
+      <Sha>0c2e69caa609d5164e16df91d6d646eb9ed74640</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NETCore.App.Internal" Version="3.1.4-servicing.20181.2">
-      <Uri>https://github.com/dotnet/core-setup</Uri>
-      <Sha>57d5bbb58f17a8cb3a82c81839c9379b4fcfe0d8</Sha>
+    <Dependency Name="Microsoft.NETCore.App.Internal" Version="3.1.4-servicing.20221.3">
+      <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup</Uri>
+      <Sha>0c2e69caa609d5164e16df91d6d646eb9ed74640</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.202-servicing.20201.3">
-      <Uri>https://github.com/dotnet/cli</Uri>
-      <Sha>5ff8321636ac23e3f0288e2d3e482ae9189da837</Sha>
+    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.202-servicing.20223.2">
+      <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
+      <Sha>92f053f39543c378f8bc0424ee092620b4aad67e</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk" Version="3.1.202-servicing.20201.6">
-      <Uri>https://github.com/dotnet/sdk</Uri>
-      <Sha>06bdc9ce0f3f21c365b998a34165c9c6a8019589</Sha>
+    <Dependency Name="Microsoft.NET.Sdk" Version="3.1.202-servicing.20223.9">
+      <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-sdk</Uri>
+      <Sha>b543387ef7477c2f8d99ca3dd877ae0ab1539ab2</Sha>
     </Dependency>
     <Dependency Name="Microsoft.Build" Version="16.5.1">
       <Uri>https://github.com/microsoft/msbuild</Uri>
@@ -33,14 +33,14 @@
       <Uri>https://github.com/dotnet/roslyn</Uri>
       <Sha>5bdb97dd91485b4080c0c12c92e032b8db597c37</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.1.3">
-      <Uri>https://github.com/dotnet/aspnetcore-tooling</Uri>
-      <Sha>5ecfad7e0515ee580f7e1b51d1558fc2a1d27ee5</Sha>
+    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.1.4">
+      <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-aspnetcore-tooling</Uri>
+      <Sha>a8242d79df31dbff528c185dd62c290b7cc262de</Sha>
     </Dependency>
     <!-- For coherency purposes, this version should be gated by the version of wpf routed via core setup -->
-    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.1.3-servicing.20128.4" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
-      <Uri>https://github.com/dotnet/wpf</Uri>
-      <Sha>b8c0f1ed4a1cd2cdd8dcbebc5ccff99993d4c3dd</Sha>
+    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.1.4-servicing.20213.3" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
+      <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-wpf</Uri>
+      <Sha>847da8feefa286affd3f458fc3fdcedcd0d93869</Sha>
     </Dependency>
     <Dependency Name="NuGet.Build.Tasks" Version="5.5.0-rtm.6473">
       <Uri>https://github.com/NuGet/NuGet.Client</Uri>
@@ -50,17 +50,13 @@
       <Uri>https://github.com/microsoft/vstest</Uri>
       <Sha>55e7e45431c9c05656c999b902686e7402664573</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Web" Version="3.1.202-servicing.20181.4">
-      <Uri>https://github.com/aspnet/websdk</Uri>
-      <Sha>e04118fdbf81a41ab77858721b3c17dbff439656</Sha>
+    <Dependency Name="Microsoft.NET.Sdk.Web" Version="3.1.202-servicing.20222.8">
+      <Uri>https://dev.azure.com/dnceng/internal/_git/aspnet-websdk</Uri>
+      <Sha>a62a587f83a3077d9371419d39380b9952b5bb98</Sha>
     </Dependency>
     <Dependency Name="ILLink.Tasks" Version="0.1.6-prerelease.19380.1">
       <Uri>https://github.com/mono/linker</Uri>
       <Sha>1127689f262d52ea8ff68ef03d706fa62b3b40a1</Sha>
-    </Dependency>
-    <Dependency Name="System.Text.Json" Version="4.7.2" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
-      <Uri>https://github.com/dotnet/corefx</Uri>
-      <Sha>282d5b9f83e7a4e7fe0cef268f4f8f85e6162510</Sha>
     </Dependency>
     <Dependency Name="System.CodeDom" Version="4.7.0" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
       <Uri>https://github.com/dotnet/corefx</Uri>
@@ -70,17 +66,17 @@
       <Uri>https://github.com/dotnet/corefx</Uri>
       <Sha>0f7f38c4fd323b26da10cce95f857f77f0f09b48</Sha>
     </Dependency>
-    <Dependency Name="System.Text.Encoding.CodePages" Version="4.7.0" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
-      <Uri>https://github.com/dotnet/corefx</Uri>
-      <Sha>0f7f38c4fd323b26da10cce95f857f77f0f09b48</Sha>
+    <Dependency Name="System.Text.Encoding.CodePages" Version="4.7.1" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
+      <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-corefx</Uri>
+      <Sha>059a4a19e602494bfbed473dbbb18f2dbfbd0878</Sha>
     </Dependency>
     <Dependency Name="System.Text.Json" Version="4.7.2" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
-      <Uri>https://github.com/dotnet/corefx</Uri>
-      <Sha>282d5b9f83e7a4e7fe0cef268f4f8f85e6162510</Sha>
+      <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-corefx</Uri>
+      <Sha>059a4a19e602494bfbed473dbbb18f2dbfbd0878</Sha>
     </Dependency>
-    <Dependency Name="System.Resources.Extensions" Version="4.7.0" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
-      <Uri>https://github.com/dotnet/corefx</Uri>
-      <Sha>0f7f38c4fd323b26da10cce95f857f77f0f09b48</Sha>
+    <Dependency Name="System.Resources.Extensions" Version="4.7.1" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
+      <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-corefx</Uri>
+      <Sha>059a4a19e602494bfbed473dbbb18f2dbfbd0878</Sha>
     </Dependency>
     <!-- Keep this dependency at the bottom of ProductDependencies, else it will be picked as the parent for CoherentParentDependencies -->
     <Dependency Name="Microsoft.NETCore.App.Ref" Version="3.1.0" Pinned="true">
