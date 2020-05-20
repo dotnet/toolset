@@ -13,7 +13,7 @@
       <Uri>https://github.com/dotnet/cli</Uri>
       <Sha>13c221a4e54f721c070711a0c175a6925be89df6</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk" Version="3.1.301-servicing.20265.6">
+    <Dependency Name="Microsoft.NET.Sdk" Version="3.1.301-servicing.20270.7">
       <Uri>https://github.com/dotnet/sdk</Uri>
       <Sha>d5aeb6dfe133c5504838b1fc377c44424273618a</Sha>
     </Dependency>
