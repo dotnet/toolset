@@ -9,7 +9,7 @@
       <Uri>https://github.com/dotnet/core-setup</Uri>
       <Sha>67792c2738156567bc0f00608dec29a1812ba6be</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.105-servicing.20269.5">
+    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.105-servicing.20270.3">
       <Uri>https://github.com/dotnet/cli</Uri>
       <Sha>c536a8b63f7007a4eb85cf8e059d1116f0a8779f</Sha>
     </Dependency>
