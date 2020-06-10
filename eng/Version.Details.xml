@@ -9,9 +9,9 @@
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup</Uri>
       <Sha>87b552f3350c8dc42fabee865354793e83536f26</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.301-servicing.20310.5">
+    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.301-servicing.20310.8">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
-      <Sha>ed39ba100e4edc3cb3aa97ef18615a1f7bee7278</Sha>
+      <Sha>b82d0f9b155b2bbad0644c1df8932463ee79e09c</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Sdk" Version="3.1.301-servicing.20309.22">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-sdk</Uri>
