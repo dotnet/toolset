@@ -3,11 +3,11 @@
   <ProductDependencies>
     <Dependency Name="Microsoft.NETCore.App.Runtime.win-x64" Version="3.1.6">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup</Uri>
-      <Sha>5c605c4f1703725e2d0b6c523b55f91109138653</Sha>
+      <Sha>a8ac54c83e7ed2fc8785777c7b103667029b5b0b</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NETCore.App.Internal" Version="3.1.6-servicing.20312.2">
+    <Dependency Name="Microsoft.NETCore.App.Internal" Version="3.1.6-servicing.20316.2">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup</Uri>
-      <Sha>5c605c4f1703725e2d0b6c523b55f91109138653</Sha>
+      <Sha>a8ac54c83e7ed2fc8785777c7b103667029b5b0b</Sha>
     </Dependency>
     <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.105-servicing.20312.21">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
@@ -38,9 +38,9 @@
       <Sha>cef995fa75c02f2a2491e1b0aff2425bd63c007e</Sha>
     </Dependency>
     <!-- For coherency purposes, this version should be gated by the version of wpf routed via core setup -->
-    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.1.4-servicing.20308.5" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
+    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.1.6-servicing.20315.3" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-wpf</Uri>
-      <Sha>5476175c8e64a3c8682600b6e265f7c39e0e2aa9</Sha>
+      <Sha>aab0cc88e5666c8cbb9710979ffdd6a0e7e4ebf2</Sha>
     </Dependency>
     <Dependency Name="NuGet.Build.Tasks" Version="5.4.0-rtm.6292">
       <Uri>https://github.com/NuGet/NuGet.Client</Uri>
