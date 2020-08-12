@@ -13,11 +13,7 @@
   <!-- Production Dependencies -->
   <PropertyGroup>
     <!-- Dependencies from https://github.com/dotnet/cli  -->
-<<<<<<< HEAD
     <MicrosoftDotNetCliRuntimePackageVersion>3.1.107-servicing.20412.1</MicrosoftDotNetCliRuntimePackageVersion>
-=======
-    <MicrosoftDotNetCliRuntimePackageVersion>3.1.107-servicing.20372.17</MicrosoftDotNetCliRuntimePackageVersion>
->>>>>>> 7430c1266dce6ec378d3939ede2b925a1c509686
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/dotnet/sdk -->
@@ -41,11 +37,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/aspnet/AspNetCore-Tooling -->
-<<<<<<< HEAD
     <MicrosoftNETSdkRazorPackageVersion>3.1.8</MicrosoftNETSdkRazorPackageVersion>
-=======
-    <MicrosoftNETSdkRazorPackageVersion>3.1.7</MicrosoftNETSdkRazorPackageVersion>
->>>>>>> 7430c1266dce6ec378d3939ede2b925a1c509686
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/aspnet/websdk -->
