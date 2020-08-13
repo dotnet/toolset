@@ -23,19 +23,11 @@
     </Dependency>
     <Dependency Name="Microsoft.Build" Version="16.7.0">
       <Uri>https://github.com/dotnet/msbuild</Uri>
-<<<<<<< HEAD
       <Sha>7fb82e5b2e5f7f8b932f3dcb6ca37db116be30ad</Sha>
     </Dependency>
     <Dependency Name="Microsoft.Build.Localization" Version="16.7.0-preview-20412-01">
       <Uri>https://github.com/dotnet/msbuild</Uri>
       <Sha>7fb82e5b2e5f7f8b932f3dcb6ca37db116be30ad</Sha>
-=======
-      <Sha>b89cb5fde99e8cdffdeb1807545ef2fc9b7dfaca</Sha>
-    </Dependency>
-    <Dependency Name="Microsoft.Build.Localization" Version="16.7.0-preview-20377-04">
-      <Uri>https://github.com/dotnet/msbuild</Uri>
-      <Sha>b89cb5fde99e8cdffdeb1807545ef2fc9b7dfaca</Sha>
->>>>>>> 4a075196160371610bf07184d33d275536171eb0
     </Dependency>
     <Dependency Name="Microsoft.FSharp.Compiler" Version="10.10.0-beta.20361.3">
       <Uri>https://github.com/dotnet/fsharp</Uri>
@@ -45,15 +37,9 @@
       <Uri>https://github.com/dotnet/roslyn</Uri>
       <Sha>d3c3a44a4e7ad31cc75c59be0d3df4a19ff33878</Sha>
     </Dependency>
-<<<<<<< HEAD
     <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.1.8">
       <Uri>https://github.com/dotnet/aspnetcore-tooling</Uri>
       <Sha>f9ccbc7177ef0423143a6c31292a30b4624fdf53</Sha>
-=======
-    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.1.7">
-      <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-aspnetcore-tooling</Uri>
-      <Sha>1c22292bc7fca352074d8862cf39fbdb8647f208</Sha>
->>>>>>> 4a075196160371610bf07184d33d275536171eb0
     </Dependency>
     <!-- For coherency purposes, this version should be gated by the version of wpf routed via core setup -->
     <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.1.7-servicing.20370.5" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
@@ -68,15 +54,9 @@
       <Uri>https://github.com/microsoft/vstest</Uri>
       <Sha>c1b6b2c1ab4c8f181f3cb1a436afb6428009c7ab</Sha>
     </Dependency>
-<<<<<<< HEAD
     <Dependency Name="Microsoft.NET.Sdk.Web" Version="3.1.401-servicing.20412.4">
       <Uri>https://github.com/dotnet/websdk</Uri>
       <Sha>f3dd8952b35dc624490af7279621f0156d83489a</Sha>
-=======
-    <Dependency Name="Microsoft.NET.Sdk.Web" Version="3.1.401-servicing.20373.6">
-      <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-websdk</Uri>
-      <Sha>2f67362523910047cf158138182f5bfca2681e3b</Sha>
->>>>>>> 4a075196160371610bf07184d33d275536171eb0
     </Dependency>
     <Dependency Name="ILLink.Tasks" Version="0.1.6-prerelease.19380.1">
       <Uri>https://github.com/mono/linker</Uri>
