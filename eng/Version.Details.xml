@@ -17,6 +17,10 @@
       <Uri>https://github.com/dotnet/cli</Uri>
       <Sha>de69a32601d0276931762f6379c2d4ab01dd9aa4</Sha>
     </Dependency>
+    <Dependency Name="Microsoft.DotNet.MSBuildSdkResolver" Version="3.1.402-servicing.20431.2">
+      <Uri>https://github.com/dotnet/cli</Uri>
+      <Sha>de69a32601d0276931762f6379c2d4ab01dd9aa4</Sha>
+    </Dependency>
     <Dependency Name="Microsoft.NET.Sdk" Version="3.1.402-servicing.20427.24">
       <Uri>https://github.com/dotnet/sdk</Uri>
       <Sha>8fc4951e718feb353208cbdfcfccf297f081461f</Sha>
@@ -82,6 +86,10 @@
     <Dependency Name="Microsoft.NETCore.App.Ref" Version="3.1.0" Pinned="true">
       <Uri>https://github.com/dotnet/core-setup</Uri>
       <Sha>65f04fb6db7a5e198d05dbebd5c4ad21eb018f89</Sha>
+    </Dependency>
+    <Dependency Name="Microsoft.DotNet.Common.ItemTemplates" Version="3.1.8">
+      <Uri>https://github.com/dotnet/templating</Uri>
+      <Sha>71adc404dea8fee00cdce403259342cf470791ca</Sha>
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
