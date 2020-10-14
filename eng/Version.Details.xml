@@ -37,9 +37,9 @@
       <Uri>https://github.com/dotnet/fsharp</Uri>
       <Sha>3ef6f0b514198c0bfa6c2c09fefe41a740b024d5</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.Net.Compilers.Toolset" Version="3.7.0-6.20459.4">
+    <Dependency Name="Microsoft.Net.Compilers.Toolset" Version="3.7.0-6.20514.1">
       <Uri>https://github.com/dotnet/roslyn</Uri>
-      <Sha>7ee7c540e3bf19765695b1331c946ddf986d1516</Sha>
+      <Sha>600c0dadd199296df3ed07dfabdc014563a77f7c</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.1.10">
       <Uri>https://github.com/dotnet/aspnetcore-tooling</Uri>
