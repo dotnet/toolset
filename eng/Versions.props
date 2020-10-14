@@ -13,7 +13,7 @@
   <!-- Production Dependencies -->
   <PropertyGroup>
     <!-- Dependencies from https://github.com/dotnet/cli  -->
-    <MicrosoftDotNetCliRuntimePackageVersion>3.1.403-servicing.20511.1</MicrosoftDotNetCliRuntimePackageVersion>
+    <MicrosoftDotNetCliRuntimePackageVersion>3.1.404-servicing.20513.3</MicrosoftDotNetCliRuntimePackageVersion>
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/dotnet/sdk -->
