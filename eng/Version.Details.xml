@@ -13,13 +13,13 @@
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup</Uri>
       <Sha>3acd9b0cd16596bad450c82be08780875a73c05c</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.110-servicing.20516.8">
+    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.110-servicing.20517.1">
       <Uri>https://github.com/dotnet/cli</Uri>
-      <Sha>a9748b28980915fa395245f2406f01af9be9f60c</Sha>
+      <Sha>a9df993566a786cebf5c0a6e21fcd7a1222d0971</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.MSBuildSdkResolver" Version="3.1.110-servicing.20516.8">
+    <Dependency Name="Microsoft.DotNet.MSBuildSdkResolver" Version="3.1.110-servicing.20517.1">
       <Uri>https://github.com/dotnet/cli</Uri>
-      <Sha>a9748b28980915fa395245f2406f01af9be9f60c</Sha>
+      <Sha>a9df993566a786cebf5c0a6e21fcd7a1222d0971</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Sdk" Version="3.1.110-servicing.20516.4">
       <Uri>https://github.com/dotnet/sdk</Uri>
