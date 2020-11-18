@@ -21,9 +21,9 @@
       <Uri>https://github.com/dotnet/cli</Uri>
       <Sha>ef1df48b3a4d9abc96726243df7f4179af7b6268</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk" Version="3.1.404-servicing.20515.11">
+    <Dependency Name="Microsoft.NET.Sdk" Version="3.1.405-servicing.20567.12">
       <Uri>https://github.com/dotnet/sdk</Uri>
-      <Sha>4f77b27cff967fd9abde1f94faae7f963c43170d</Sha>
+      <Sha>697e5edb0843bbbfa8df5f52686340f36b8d681a</Sha>
     </Dependency>
     <Dependency Name="Microsoft.Build" Version="16.7.2">
       <Uri>https://github.com/dotnet/msbuild</Uri>
@@ -58,7 +58,7 @@
       <Uri>https://github.com/microsoft/vstest</Uri>
       <Sha>c1b6b2c1ab4c8f181f3cb1a436afb6428009c7ab</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Web" Version="3.1.404-servicing.20522.2">
+    <Dependency Name="Microsoft.NET.Sdk.Web" Version="3.1.404-servicing.20561.2">
       <Uri>https://github.com/dotnet/websdk</Uri>
       <Sha>1ca1cfb6c255d5ab50490ec105bafa60a6048338</Sha>
     </Dependency>
