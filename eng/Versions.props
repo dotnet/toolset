@@ -13,7 +13,7 @@
   <!-- Production Dependencies -->
   <PropertyGroup>
     <!-- Dependencies from https://github.com/dotnet/cli  -->
-    <MicrosoftDotNetCliRuntimePackageVersion>3.1.111-servicing.20570.11</MicrosoftDotNetCliRuntimePackageVersion>
+    <MicrosoftDotNetCliRuntimePackageVersion>3.1.112-servicing.21071.2</MicrosoftDotNetCliRuntimePackageVersion>
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/dotnet/sdk -->
@@ -52,11 +52,12 @@
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/nuget/nuget.client -->
-    <NuGetBuildTasksPackageVersion>5.4.0-rtm.6292</NuGetBuildTasksPackageVersion>
+    <NuGetBuildTasksPackageVersion>5.4.0</NuGetBuildTasksPackageVersion>
     <NuGetBuildTasksPackPackageVersion>$(NuGetBuildTasksPackageVersion)</NuGetBuildTasksPackPackageVersion>
     <NuGetCommandLineXPlatPackageVersion>$(NuGetBuildTasksPackageVersion)</NuGetCommandLineXPlatPackageVersion>
     <NuGetProjectModelPackageVersion>$(NuGetBuildTasksPackageVersion)</NuGetProjectModelPackageVersion>
-    <MicrosoftBuildNuGetSdkResolverPackageVersion>$(NuGetBuildTasksPackageVersion)</MicrosoftBuildNuGetSdkResolverPackageVersion>
+    <NuGetLocalizationPackageVersion>5.4.0-rtm.6292</NuGetLocalizationPackageVersion>
+    <MicrosoftBuildNuGetSdkResolverPackageVersion>$(NuGetLocalizationPackageVersion)</MicrosoftBuildNuGetSdkResolverPackageVersion>
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/Microsoft/vstest -->
@@ -86,7 +87,7 @@
   <PropertyGroup>
     <!-- Test only dependencies -->
     <MicrosoftDotNetPlatformAbstractionsPackageVersion>3.1.6</MicrosoftDotNetPlatformAbstractionsPackageVersion>
-    <MicrosoftDotNetCliUtilsPackageVersion>$(MicrosoftDotNetCliRuntimePackageVersion)</MicrosoftDotNetCliUtilsPackageVersion>
+    <MicrosoftDotNetCliUtilsPackageVersion>3.1.112-servicing.21071.2</MicrosoftDotNetCliUtilsPackageVersion>
   </PropertyGroup>
   <PropertyGroup>
     <UsingToolNetFrameworkReferenceAssemblies>true</UsingToolNetFrameworkReferenceAssemblies>
