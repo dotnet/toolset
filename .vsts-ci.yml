@@ -149,7 +149,7 @@ stages:
       # This repo doesn't produce any signed packages.
       enableSigningValidation: false
       SDLValidationParameters:
-        enable: false
+        enable: true
         params: ' -SourceToolsList @("policheck","credscan")
         -TsaInstanceURL $(_TsaInstanceURL)
         -TsaProjectName $(_TsaProjectName)
