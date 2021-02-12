@@ -79,7 +79,7 @@
   <PropertyGroup>
     <!-- Dependencies from https://github.com/dotnet/core-setup -->
     <MicrosoftNETCoreAppRefPackageVersion>3.1.0</MicrosoftNETCoreAppRefPackageVersion>
-    <MicrosoftNETCoreAppInternalPackageVersion>3.1.13-servicing.21112.6</MicrosoftNETCoreAppInternalPackageVersion>
+    <MicrosoftNETCoreAppInternalPackageVersion>3.1.13-servicing.21112.7</MicrosoftNETCoreAppInternalPackageVersion>
     <MicrosoftNETCoreAppRuntimewinx64PackageVersion>3.1.13</MicrosoftNETCoreAppRuntimewinx64PackageVersion>
     <MicrosoftNETCoreAppRuntimePackageVersion>$(MicrosoftNETCoreAppRuntimewinx64PackageVersion)</MicrosoftNETCoreAppRuntimePackageVersion>
   </PropertyGroup>
