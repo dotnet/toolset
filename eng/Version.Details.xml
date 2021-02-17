@@ -13,13 +13,13 @@
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup</Uri>
       <Sha>3acd9b0cd16596bad450c82be08780875a73c05c</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.407-servicing.21112.30">
+    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.407-servicing.21116.4">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
-      <Sha>53dc04ad642b81cd8ad54332f9e1b3c0ee245a59</Sha>
+      <Sha>b4e3f41a6b396f8f8eb68e138b3a38e288537d59</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.MSBuildSdkResolver" Version="3.1.407-servicing.21112.30">
+    <Dependency Name="Microsoft.DotNet.MSBuildSdkResolver" Version="3.1.407-servicing.21116.4">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
-      <Sha>53dc04ad642b81cd8ad54332f9e1b3c0ee245a59</Sha>
+      <Sha>b4e3f41a6b396f8f8eb68e138b3a38e288537d59</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Sdk" Version="3.1.407-servicing.21112.15">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-sdk</Uri>
@@ -89,7 +89,7 @@
     </Dependency>
     <Dependency Name="Microsoft.DotNet.Common.ItemTemplates" Version="3.1.13" CoherentParentDependency="Microsoft.DotNet.Cli.Runtime">
       <Uri>https://github.com/dotnet/templating</Uri>
-      <Sha>6f88b8848ef232ec92714844b2ff3735e99d8025</Sha>
+      <Sha>01919484d0079b505f1befc05109f4f8405c2ec4</Sha>
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
@@ -97,9 +97,9 @@
       <Uri>https://github.com/dotnet/arcade</Uri>
       <Sha>251249a04a9686ca2660e2acaa3094446a48f10d</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Cli.Utils" Version="3.1.407-servicing.21112.30">
+    <Dependency Name="Microsoft.DotNet.Cli.Utils" Version="3.1.407-servicing.21116.4">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
-      <Sha>53dc04ad642b81cd8ad54332f9e1b3c0ee245a59</Sha>
+      <Sha>b4e3f41a6b396f8f8eb68e138b3a38e288537d59</Sha>
     </Dependency>
   </ToolsetDependencies>
 </Dependencies>
