@@ -50,9 +50,9 @@
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-wpf</Uri>
       <Sha>0cbdd7452633a777873733dfd2c00691df0b03a0</Sha>
     </Dependency>
-    <Dependency Name="NuGet.Build.Tasks" Version="5.7.0-rtm.6702">
-      <Uri>https://github.com/NuGet/NuGet.Client</Uri>
-      <Sha>cd51d2637fc533e1e188c860e7616107904a3623</Sha>
+    <Dependency Name="NuGet.Build.Tasks" Version="5.7.1-rtm.4">
+      <Uri>https://dev.azure.com/devdiv/DevDiv/_git/NuGet-NuGet.Client-Trusted</Uri>
+      <Sha>89c5d71421d1db6867cedeff26b1634a42a01ff0</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Test.Sdk" Version="16.7.0-release-20200703-01">
       <Uri>https://github.com/microsoft/vstest</Uri>
