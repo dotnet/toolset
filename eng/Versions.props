@@ -13,7 +13,7 @@
   <!-- Production Dependencies -->
   <PropertyGroup>
     <!-- Dependencies from https://github.com/dotnet/cli  -->
-    <MicrosoftDotNetCliRuntimePackageVersion>3.1.410-servicing.21254.21</MicrosoftDotNetCliRuntimePackageVersion>
+    <MicrosoftDotNetCliRuntimePackageVersion>3.1.410-servicing.21256.4</MicrosoftDotNetCliRuntimePackageVersion>
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/dotnet/sdk -->
@@ -86,7 +86,7 @@
   <PropertyGroup>
     <!-- Test only dependencies -->
     <MicrosoftDotNetPlatformAbstractionsPackageVersion>3.1.6</MicrosoftDotNetPlatformAbstractionsPackageVersion>
-    <MicrosoftDotNetCliUtilsPackageVersion>3.1.410-servicing.21254.21</MicrosoftDotNetCliUtilsPackageVersion>
+    <MicrosoftDotNetCliUtilsPackageVersion>3.1.410-servicing.21256.4</MicrosoftDotNetCliUtilsPackageVersion>
   </PropertyGroup>
   <PropertyGroup>
     <UsingToolNetFrameworkReferenceAssemblies>true</UsingToolNetFrameworkReferenceAssemblies>
