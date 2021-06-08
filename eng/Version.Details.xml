@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Dependencies>
   <ProductDependencies>
-    <Dependency Name="Microsoft.NETCore.App.Runtime.win-x64" Version="3.1.15">
+    <Dependency Name="Microsoft.NETCore.App.Runtime.win-x64" Version="3.1.16">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup</Uri>
-      <Sha>dc339bd0fb2ec082e3afdc0a5ade2066a86d1681</Sha>
+      <Sha>4c6b4aa257241c4d419b8c271e37afac4445b1c0</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NETCore.App.Internal" Version="3.1.15-servicing.21214.3">
+    <Dependency Name="Microsoft.NETCore.App.Internal" Version="3.1.16-servicing.21262.7">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup</Uri>
-      <Sha>dc339bd0fb2ec082e3afdc0a5ade2066a86d1681</Sha>
+      <Sha>4c6b4aa257241c4d419b8c271e37afac4445b1c0</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.HostModel" Version="3.1.6">
+    <Dependency Name="Microsoft.NET.HostModel" Version="3.1.16">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup</Uri>
-      <Sha>3acd9b0cd16596bad450c82be08780875a73c05c</Sha>
+      <Sha>4c6b4aa257241c4d419b8c271e37afac4445b1c0</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.115-servicing.21216.5">
+    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.116-servicing.21263.11">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
-      <Sha>6a07d0e5d0f8a660113e5d6007d5b107ef8a6b8b</Sha>
+      <Sha>49e1881e820b9958b6292276afc5afb8a7b2b9d8</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.MSBuildSdkResolver" Version="3.1.115-servicing.21216.5">
+    <Dependency Name="Microsoft.DotNet.MSBuildSdkResolver" Version="3.1.116-servicing.21263.11">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
-      <Sha>6a07d0e5d0f8a660113e5d6007d5b107ef8a6b8b</Sha>
+      <Sha>49e1881e820b9958b6292276afc5afb8a7b2b9d8</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk" Version="3.1.115-servicing.21213.19">
+    <Dependency Name="Microsoft.NET.Sdk" Version="3.1.116-servicing.21262.33">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-sdk</Uri>
-      <Sha>e78e47c7ee386dfe0c1c30d8db2bb15d517cb825</Sha>
+      <Sha>ef142b8d894e6f4b4f5f2d086e1802ec56351dd6</Sha>
     </Dependency>
     <Dependency Name="Microsoft.Build" Version="16.4.0">
       <Uri>https://github.com/microsoft/msbuild</Uri>
@@ -41,22 +41,22 @@
       <Uri>https://github.com/dotnet/roslyn</Uri>
       <Sha>d8180a5ecafb92adcfbfe8cf9199eb23be1a1ccf</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.1.15">
+    <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.1.16">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-aspnetcore-tooling</Uri>
-      <Sha>b4f2d7437db4b5f36375cfcf1de316e3e42fcee6</Sha>
+      <Sha>198cc5ec1c2fa512a34273fdfcc659e54c539002</Sha>
     </Dependency>
     <!-- For coherency purposes, this version should be gated by the version of wpf routed via core setup -->
-    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.1.15-servicing.21213.14" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
+    <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.1.16-servicing.21261.6" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-wpf</Uri>
-      <Sha>6e87e91ecfec2db2490cf78cc5f45517d0abb942</Sha>
+      <Sha>d2dae225ff87a65cc5ee4a949734c688d4637f55</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Test.Sdk" Version="16.3.0">
       <Uri>https://github.com/microsoft/vstest</Uri>
       <Sha>55e7e45431c9c05656c999b902686e7402664573</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Web" Version="3.1.115-servicing.21215.14">
+    <Dependency Name="Microsoft.NET.Sdk.Web" Version="3.1.116-servicing.21263.9">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-websdk</Uri>
-      <Sha>165b36ca8a73efee5660465ec1281d24fddf67e5</Sha>
+      <Sha>7f8358e605a2a61afbba8b5e61be6a9f6c474955</Sha>
     </Dependency>
     <Dependency Name="ILLink.Tasks" Version="0.1.6-prerelease.19380.1">
       <Uri>https://github.com/mono/linker</Uri>
@@ -87,9 +87,9 @@
       <Uri>https://github.com/dotnet/core-setup</Uri>
       <Sha>65f04fb6db7a5e198d05dbebd5c4ad21eb018f89</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Common.ItemTemplates" Version="3.1.15" CoherentParentDependency="Microsoft.DotNet.Cli.Runtime">
+    <Dependency Name="Microsoft.DotNet.Common.ItemTemplates" Version="3.1.16" CoherentParentDependency="Microsoft.DotNet.Cli.Runtime">
       <Uri>https://github.com/dotnet/templating</Uri>
-      <Sha>7116c61c686c40fa0cb33f6f96a3631f8764846e</Sha>
+      <Sha>241b4771f5caa832464e16ee6739c291d12b0ff5</Sha>
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
@@ -97,9 +97,9 @@
       <Uri>https://github.com/dotnet/arcade</Uri>
       <Sha>9467b1074927ee3fe98d539d3b72f5686c861958</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Cli.Utils" Version="3.1.115-servicing.21216.5">
+    <Dependency Name="Microsoft.DotNet.Cli.Utils" Version="3.1.116-servicing.21263.11">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
-      <Sha>6a07d0e5d0f8a660113e5d6007d5b107ef8a6b8b</Sha>
+      <Sha>49e1881e820b9958b6292276afc5afb8a7b2b9d8</Sha>
     </Dependency>
   </ToolsetDependencies>
 </Dependencies>
