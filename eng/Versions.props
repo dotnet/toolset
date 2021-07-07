@@ -41,7 +41,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/aspnet/websdk -->
-    <MicrosoftNETSdkWebPackageVersion>3.1.117-servicing.21357.2</MicrosoftNETSdkWebPackageVersion>
+    <MicrosoftNETSdkWebPackageVersion>3.1.118-servicing.21357.12</MicrosoftNETSdkWebPackageVersion>
     <MicrosoftNETSdkPublishPackageVersion>$(MicrosoftNETSdkWebPackageVersion)</MicrosoftNETSdkPublishPackageVersion>
     <MicrosoftNETSdkWebProjectSystemPackageVersion>$(MicrosoftNETSdkWebPackageVersion)</MicrosoftNETSdkWebProjectSystemPackageVersion>
     <MicrosoftNETSdkWorkerPackageVersion>$(MicrosoftNETSdkWebPackageVersion)</MicrosoftNETSdkWorkerPackageVersion>
