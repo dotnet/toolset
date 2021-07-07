@@ -13,13 +13,13 @@
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup</Uri>
       <Sha>4c6b4aa257241c4d419b8c271e37afac4445b1c0</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.118-servicing.21357.14">
+    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.118-servicing.21357.21">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
-      <Sha>fbe53fb7eb32335fbabeefdf293f5516b1cf7709</Sha>
+      <Sha>ae5309a7c73715261b9caf17f4d29adda4aadd84</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.MSBuildSdkResolver" Version="3.1.118-servicing.21357.14">
+    <Dependency Name="Microsoft.DotNet.MSBuildSdkResolver" Version="3.1.118-servicing.21357.21">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
-      <Sha>fbe53fb7eb32335fbabeefdf293f5516b1cf7709</Sha>
+      <Sha>ae5309a7c73715261b9caf17f4d29adda4aadd84</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Sdk" Version="3.1.118-servicing.21356.10">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-sdk</Uri>
@@ -89,7 +89,7 @@
     </Dependency>
     <Dependency Name="Microsoft.DotNet.Common.ItemTemplates" Version="3.1.18" CoherentParentDependency="Microsoft.DotNet.Cli.Runtime">
       <Uri>https://github.com/dotnet/templating</Uri>
-      <Sha>b66e7f9363db9f76d83723eab249f1bce5dadbff</Sha>
+      <Sha>4ae267926f1930a20cfc090fe1378bbfb9f5f08c</Sha>
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
@@ -97,9 +97,9 @@
       <Uri>https://github.com/dotnet/arcade</Uri>
       <Sha>1e5713e8cba9f3ff635ed4b7421d89b2fc989b8e</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Cli.Utils" Version="3.1.118-servicing.21357.14">
+    <Dependency Name="Microsoft.DotNet.Cli.Utils" Version="3.1.118-servicing.21357.21">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
-      <Sha>fbe53fb7eb32335fbabeefdf293f5516b1cf7709</Sha>
+      <Sha>ae5309a7c73715261b9caf17f4d29adda4aadd84</Sha>
     </Dependency>
   </ToolsetDependencies>
 </Dependencies>
