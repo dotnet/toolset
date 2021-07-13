@@ -3,7 +3,7 @@
 # Licensed under the MIT license. See LICENSE file in the project root for full license information.
 #
 
-FROM microsoft/dotnet-buildtools-prereqs:opensuse-42.3-d46ee12-20180327014902
+FROM mcr.microsoft.com/dotnet-buildtools/prereqs:opensuse-42.3-d46ee12-20180327014902
 
 # Install the base toolchain we need to build anything (clang, cmake, make and the like)
 # this does not include libraries that we need to compile different projects, we'd like
