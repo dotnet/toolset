@@ -43,7 +43,7 @@
     </Dependency>
     <Dependency Name="Microsoft.NET.Sdk.Razor" Version="3.1.18">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-aspnetcore-tooling</Uri>
-      <Sha>a5e6841108443dc4e4a31aaca078e098ae468a0c</Sha>
+      <Sha>2a59a0c4ce653d7b7d68e58a96f26f817df79593</Sha>
     </Dependency>
     <!-- For coherency purposes, this version should be gated by the version of wpf routed via core setup -->
     <Dependency Name="Microsoft.NET.Sdk.WindowsDesktop" Version="3.1.17-servicing.21309.8" CoherentParentDependency="Microsoft.NETCore.App.Runtime.win-x64">
