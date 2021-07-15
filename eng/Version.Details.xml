@@ -13,13 +13,13 @@
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup</Uri>
       <Sha>4c6b4aa257241c4d419b8c271e37afac4445b1c0</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.118-servicing.21363.24">
+    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.118-servicing.21364.12">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
-      <Sha>51fa7be708b71cff0aab9d4c6e90b0b0e03f0e7c</Sha>
+      <Sha>3f5420ed4cce9f38d11035ccf53a9692f2594266</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.MSBuildSdkResolver" Version="3.1.118-servicing.21363.24">
+    <Dependency Name="Microsoft.DotNet.MSBuildSdkResolver" Version="3.1.118-servicing.21364.12">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
-      <Sha>51fa7be708b71cff0aab9d4c6e90b0b0e03f0e7c</Sha>
+      <Sha>3f5420ed4cce9f38d11035ccf53a9692f2594266</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Sdk" Version="3.1.118-servicing.21363.15">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-sdk</Uri>
@@ -97,9 +97,9 @@
       <Uri>https://github.com/dotnet/arcade</Uri>
       <Sha>1b4ae2cf54c730564509227fa4f4dd8a7c31dc81</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Cli.Utils" Version="3.1.118-servicing.21363.24">
+    <Dependency Name="Microsoft.DotNet.Cli.Utils" Version="3.1.118-servicing.21364.12">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
-      <Sha>51fa7be708b71cff0aab9d4c6e90b0b0e03f0e7c</Sha>
+      <Sha>3f5420ed4cce9f38d11035ccf53a9692f2594266</Sha>
     </Dependency>
   </ToolsetDependencies>
 </Dependencies>
