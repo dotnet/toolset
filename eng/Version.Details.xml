@@ -13,13 +13,13 @@
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup</Uri>
       <Sha>4c6b4aa257241c4d419b8c271e37afac4445b1c0</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.412-servicing.21365.7">
+    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.412-servicing.21378.4">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
-      <Sha>d87d0a63af2b9cb873156c4416e330a641025653</Sha>
+      <Sha>db966f00dac716944961ab9a4478baab7cb6265f</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.MSBuildSdkResolver" Version="3.1.412-servicing.21365.7">
+    <Dependency Name="Microsoft.DotNet.MSBuildSdkResolver" Version="3.1.412-servicing.21378.4">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
-      <Sha>d87d0a63af2b9cb873156c4416e330a641025653</Sha>
+      <Sha>db966f00dac716944961ab9a4478baab7cb6265f</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Sdk" Version="3.1.412-servicing.21363.9">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-sdk</Uri>
@@ -89,7 +89,7 @@
     </Dependency>
     <Dependency Name="Microsoft.DotNet.Common.ItemTemplates" Version="3.1.18" CoherentParentDependency="Microsoft.DotNet.Cli.Runtime">
       <Uri>https://github.com/dotnet/templating</Uri>
-      <Sha>228ed184c380b34d29cfd0313d7a26eb0acdc641</Sha>
+      <Sha>df5f916a0519999927f5b2374af44535d1f1b87b</Sha>
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
@@ -97,9 +97,9 @@
       <Uri>https://github.com/dotnet/arcade</Uri>
       <Sha>1b4ae2cf54c730564509227fa4f4dd8a7c31dc81</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Cli.Utils" Version="3.1.412-servicing.21365.7">
+    <Dependency Name="Microsoft.DotNet.Cli.Utils" Version="3.1.412-servicing.21378.4">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
-      <Sha>d87d0a63af2b9cb873156c4416e330a641025653</Sha>
+      <Sha>db966f00dac716944961ab9a4478baab7cb6265f</Sha>
     </Dependency>
   </ToolsetDependencies>
 </Dependencies>
