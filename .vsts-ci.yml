@@ -63,7 +63,7 @@ stages:
         agentOs: Linux
         enablePublishUsingPipelines: true
         pool:
-          name: Hosted Ubuntu 1604
+          vmImage: 'ubuntu-18.04'
         strategy:
           matrix:
             Build_Ubuntu_14_04_Release_x64:
