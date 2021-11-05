@@ -58,7 +58,7 @@
       <Uri>https://github.com/microsoft/vstest</Uri>
       <Sha>c1b6b2c1ab4c8f181f3cb1a436afb6428009c7ab</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk.Web" Version="3.1.416-servicing.21554.17">
+    <Dependency Name="Microsoft.NET.Sdk.Web" Version="3.1.416-servicing.21555.1">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-websdk</Uri>
       <Sha>1e5b30711fd143669f9b798578ea3f0b3da234fc</Sha>
     </Dependency>
