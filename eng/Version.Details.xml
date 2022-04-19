@@ -87,9 +87,9 @@
       <Uri>https://github.com/dotnet/core-setup</Uri>
       <Sha>65f04fb6db7a5e198d05dbebd5c4ad21eb018f89</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Common.ItemTemplates" Version="3.1.24" CoherentParentDependency="Microsoft.DotNet.Cli.Runtime">
+    <Dependency Name="Microsoft.DotNet.Common.ItemTemplates" Version="3.1.25" CoherentParentDependency="Microsoft.DotNet.Cli.Runtime">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-templating</Uri>
-      <Sha>c088cfded1fb1fb84c210514a717ccd5631b15b1</Sha>
+      <Sha>ce3b0dc31df0909a8d8d766694afbc96dfff3036</Sha>
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
