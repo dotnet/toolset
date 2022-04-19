@@ -46,7 +46,12 @@ stages:
     parameters:
       agentOs: Windows_NT
       pool:
-        name: Hosted VS2017
+        ${{ if eq(variables['System.TeamProject'], 'public') }}:
+          name: NetCore1ESPool-Public
+          demands: ImageOverride -equals Build.Server.Amd64.VS2019.Open
+        ${{ if eq(variables['System.TeamProject'], 'internal') }}:
+          name: NetCore1ESPool-Internal
+          demands: ImageOverride -equals Build.Server.Amd64.VS2019
       strategy:
         matrix:
           ${{ if or(eq(variables['System.TeamProject'], 'public'), in(variables['Build.Reason'], 'PullRequest')) }}:
@@ -125,8 +130,13 @@ stages:
         publishUsingPipelines: true
         dependsOn:
           - Windows_NT
-        queue:
-          name: Hosted VS2017
+        pool:
+          ${{ if eq(variables['System.TeamProject'], 'public') }}:
+            name: NetCore1ESPool-Public
+            demands: ImageOverride -equals Build.Server.Amd64.VS2019.Open
+          ${{ if eq(variables['System.TeamProject'], 'internal') }}:
+            name: NetCore1ESPool-Internal
+            demands: ImageOverride -equals Build.Server.Amd64.VS2019
 
 - ${{ if and(ne(variables['System.TeamProject'], 'public'), notin(variables['Build.Reason'], 'PullRequest')) }}:
   - template: eng\common\templates\post-build\post-build.yml
