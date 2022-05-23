@@ -21,9 +21,9 @@
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
       <Sha>112f8a4d67af3ca8bf0cc72ecf91f9ab60c0c2c5</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.NET.Sdk" Version="3.1.420-servicing.22261.16">
+    <Dependency Name="Microsoft.NET.Sdk" Version="3.1.420-servicing.22273.23">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-sdk</Uri>
-      <Sha>cd5ccf852e57fc5ddb268e624674d896499bfff2</Sha>
+      <Sha>6ffa956f2dff82ccd513010fcdb400cfba636aa5</Sha>
     </Dependency>
     <Dependency Name="Microsoft.Build" Version="16.7.2">
       <Uri>https://github.com/dotnet/msbuild</Uri>
