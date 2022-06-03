@@ -59,7 +59,7 @@ set DOTNET_CLI_UI_LANGUAGE=es
 """
     }
     else if (os == 'Ubuntu') {
-        buildCommand = "./build.sh --skip-prereqs --configuration ${configuration} --docker ubuntu.14.04 --targets Default"
+        buildCommand = "./build.sh --skip-prereqs --configuration ${configuration} --docker ubuntu.18.04 --targets Default"
     }
     else if (os == 'Linux') {
         osUsedForMachineAffinity = 'Ubuntu16.04';
