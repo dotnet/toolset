@@ -12,6 +12,9 @@
   </PropertyGroup>
   <!-- Production Dependencies -->
   <PropertyGroup>
+    <NewtonsoftJsonPackageVersion>13.0.1</NewtonsoftJsonPackageVersion>
+  </PropertyGroup>
+  <PropertyGroup>
     <!-- Dependencies from https://github.com/dotnet/cli  -->
     <MicrosoftDotNetCliRuntimePackageVersion>3.1.420-servicing.22274.10</MicrosoftDotNetCliRuntimePackageVersion>
   </PropertyGroup>
