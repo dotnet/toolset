@@ -27,11 +27,11 @@
     </Dependency>
     <Dependency Name="Microsoft.Build" Version="16.7.3">
       <Uri>https://dev.azure.com/devdiv/DevDiv/_git/DotNet-msbuild-Trusted</Uri>
-      <Sha>a2130f2626344abd5445e6a07e19010d52f173bb</Sha>
+      <Sha>2f374e28ea8abbeee841bf805955a72a39c88b81</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.Build.Localization" Version="16.7.3-preview-22470-01">
+    <Dependency Name="Microsoft.Build.Localization" Version="16.7.3-preview-22478-02">
       <Uri>https://dev.azure.com/devdiv/DevDiv/_git/DotNet-msbuild-Trusted</Uri>
-      <Sha>a2130f2626344abd5445e6a07e19010d52f173bb</Sha>
+      <Sha>2f374e28ea8abbeee841bf805955a72a39c88b81</Sha>
     </Dependency>
     <Dependency Name="Microsoft.FSharp.Compiler" Version="10.10.0-beta.20361.3">
       <Uri>https://github.com/dotnet/fsharp</Uri>
