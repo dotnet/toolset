@@ -13,18 +13,18 @@
   <!-- Production Dependencies -->
   <PropertyGroup>
     <!-- Dependencies from https://github.com/dotnet/cli  -->
-    <MicrosoftDotNetCliRuntimePackageVersion>3.1.423-servicing.22418.3</MicrosoftDotNetCliRuntimePackageVersion>
+    <MicrosoftDotNetCliRuntimePackageVersion>3.1.424-servicing.22477.4</MicrosoftDotNetCliRuntimePackageVersion>
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/dotnet/sdk -->
-    <MicrosoftNETSdkPackageVersion>3.1.423-servicing.22412.15</MicrosoftNETSdkPackageVersion>
+    <MicrosoftNETSdkPackageVersion>3.1.424-servicing.22463.9</MicrosoftNETSdkPackageVersion>
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/Microsoft/msbuild -->
-    <MicrosoftBuildPackageVersion>16.7.2</MicrosoftBuildPackageVersion>
+    <MicrosoftBuildPackageVersion>16.7.3</MicrosoftBuildPackageVersion>
     <MicrosoftBuildFrameworkPackageVersion>$(MicrosoftBuildPackageVersion)</MicrosoftBuildFrameworkPackageVersion>
     <MicrosoftBuildRuntimePackageVersion>$(MicrosoftBuildPackageVersion)</MicrosoftBuildRuntimePackageVersion>
-    <MicrosoftBuildLocalizationPackageVersion>16.7.2-preview-20529-01</MicrosoftBuildLocalizationPackageVersion>
+    <MicrosoftBuildLocalizationPackageVersion>16.7.3-preview-22478-02</MicrosoftBuildLocalizationPackageVersion>
     <MicrosoftBuildUtilitiesCorePackageVersion>$(MicrosoftBuildPackageVersion)</MicrosoftBuildUtilitiesCorePackageVersion>
   </PropertyGroup>
   <PropertyGroup>
@@ -37,22 +37,22 @@
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/aspnet/AspNetCore-Tooling -->
-    <MicrosoftNETSdkRazorPackageVersion>3.1.29</MicrosoftNETSdkRazorPackageVersion>
+    <MicrosoftNETSdkRazorPackageVersion>3.1.30</MicrosoftNETSdkRazorPackageVersion>
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/aspnet/websdk -->
-    <MicrosoftNETSdkWebPackageVersion>3.1.423-servicing.22418.2</MicrosoftNETSdkWebPackageVersion>
+    <MicrosoftNETSdkWebPackageVersion>3.1.424-servicing.22477.2</MicrosoftNETSdkWebPackageVersion>
     <MicrosoftNETSdkPublishPackageVersion>$(MicrosoftNETSdkWebPackageVersion)</MicrosoftNETSdkPublishPackageVersion>
     <MicrosoftNETSdkWebProjectSystemPackageVersion>$(MicrosoftNETSdkWebPackageVersion)</MicrosoftNETSdkWebProjectSystemPackageVersion>
     <MicrosoftNETSdkWorkerPackageVersion>$(MicrosoftNETSdkWebPackageVersion)</MicrosoftNETSdkWorkerPackageVersion>
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://devdiv.visualstudio.com/DevDiv/_git/DotNet-Trusted -->
-    <MicrosoftNETSdkWindowsDesktopPackageVersion>3.1.29-servicing.22402.8</MicrosoftNETSdkWindowsDesktopPackageVersion>
+    <MicrosoftNETSdkWindowsDesktopPackageVersion>3.1.30-servicing.22456.12</MicrosoftNETSdkWindowsDesktopPackageVersion>
   </PropertyGroup>
   <PropertyGroup>
     <!-- Dependencies from https://github.com/nuget/nuget.client -->
-    <NuGetBuildTasksPackageVersion>5.7.2-rtm.8</NuGetBuildTasksPackageVersion>
+    <NuGetBuildTasksPackageVersion>5.7.3-rtm.5</NuGetBuildTasksPackageVersion>
     <NuGetBuildTasksConsolePackageVersion>$(NuGetBuildTasksPackageVersion)</NuGetBuildTasksConsolePackageVersion>
     <NuGetBuildTasksPackPackageVersion>$(NuGetBuildTasksPackageVersion)</NuGetBuildTasksPackPackageVersion>
     <NuGetCommandLineXPlatPackageVersion>$(NuGetBuildTasksPackageVersion)</NuGetCommandLineXPlatPackageVersion>
@@ -79,14 +79,14 @@
   <PropertyGroup>
     <!-- Dependencies from https://github.com/dotnet/core-setup -->
     <MicrosoftNETCoreAppRefPackageVersion>3.1.0</MicrosoftNETCoreAppRefPackageVersion>
-    <MicrosoftNETCoreAppInternalPackageVersion>3.1.29-servicing.22417.6</MicrosoftNETCoreAppInternalPackageVersion>
-    <MicrosoftNETCoreAppRuntimewinx64PackageVersion>3.1.29</MicrosoftNETCoreAppRuntimewinx64PackageVersion>
+    <MicrosoftNETCoreAppInternalPackageVersion>3.1.30-servicing.22476.9</MicrosoftNETCoreAppInternalPackageVersion>
+    <MicrosoftNETCoreAppRuntimewinx64PackageVersion>3.1.30</MicrosoftNETCoreAppRuntimewinx64PackageVersion>
     <MicrosoftNETCoreAppRuntimePackageVersion>$(MicrosoftNETCoreAppRuntimewinx64PackageVersion)</MicrosoftNETCoreAppRuntimePackageVersion>
   </PropertyGroup>
   <PropertyGroup>
     <!-- Test only dependencies -->
     <MicrosoftDotNetPlatformAbstractionsPackageVersion>3.1.6</MicrosoftDotNetPlatformAbstractionsPackageVersion>
-    <MicrosoftDotNetCliUtilsPackageVersion>3.1.423-servicing.22418.3</MicrosoftDotNetCliUtilsPackageVersion>
+    <MicrosoftDotNetCliUtilsPackageVersion>3.1.424-servicing.22477.4</MicrosoftDotNetCliUtilsPackageVersion>
   </PropertyGroup>
   <PropertyGroup>
     <UsingToolNetFrameworkReferenceAssemblies>true</UsingToolNetFrameworkReferenceAssemblies>
