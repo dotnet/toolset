@@ -93,9 +93,9 @@
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
-    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="1.0.0-beta.22378.5">
+    <Dependency Name="Microsoft.DotNet.Arcade.Sdk" Version="1.0.0-beta.22512.2">
       <Uri>https://github.com/dotnet/arcade</Uri>
-      <Sha>0de02c603d72d93709a9c7f31d67289e8833b06a</Sha>
+      <Sha>869528d3af327eb6de19b414631280734dfe76e6</Sha>
     </Dependency>
     <Dependency Name="Microsoft.DotNet.Cli.Utils" Version="3.1.424-servicing.22477.4">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
