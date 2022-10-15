@@ -13,13 +13,13 @@
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup</Uri>
       <Sha>4c6b4aa257241c4d419b8c271e37afac4445b1c0</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.425-servicing.22512.3">
+    <Dependency Name="Microsoft.DotNet.Cli.Runtime" Version="3.1.425-servicing.22514.6">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
-      <Sha>2dfdf549a0269b2488b007e253c59d681022695f</Sha>
+      <Sha>a37cf8b4e506e41db9b1d46ff49deccc3d743375</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.MSBuildSdkResolver" Version="3.1.425-servicing.22512.3">
+    <Dependency Name="Microsoft.DotNet.MSBuildSdkResolver" Version="3.1.425-servicing.22514.6">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
-      <Sha>2dfdf549a0269b2488b007e253c59d681022695f</Sha>
+      <Sha>a37cf8b4e506e41db9b1d46ff49deccc3d743375</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Sdk" Version="3.1.425-servicing.22513.26">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-sdk</Uri>
@@ -87,9 +87,9 @@
       <Uri>https://github.com/dotnet/core-setup</Uri>
       <Sha>65f04fb6db7a5e198d05dbebd5c4ad21eb018f89</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Common.ItemTemplates" Version="3.1.30" CoherentParentDependency="Microsoft.DotNet.Cli.Runtime">
+    <Dependency Name="Microsoft.DotNet.Common.ItemTemplates" Version="3.1.31" CoherentParentDependency="Microsoft.DotNet.Cli.Runtime">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-templating</Uri>
-      <Sha>04f00ea18b2848ea5a55d61abc4d66b2575880f6</Sha>
+      <Sha>ccc43904adf6ffaf90e8fc6f157a891ff9609327</Sha>
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
@@ -97,9 +97,9 @@
       <Uri>https://github.com/dotnet/arcade</Uri>
       <Sha>869528d3af327eb6de19b414631280734dfe76e6</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Cli.Utils" Version="3.1.425-servicing.22512.3">
+    <Dependency Name="Microsoft.DotNet.Cli.Utils" Version="3.1.425-servicing.22514.6">
       <Uri>https://dev.azure.com/dnceng/internal/_git/dotnet-cli</Uri>
-      <Sha>2dfdf549a0269b2488b007e253c59d681022695f</Sha>
+      <Sha>a37cf8b4e506e41db9b1d46ff49deccc3d743375</Sha>
     </Dependency>
   </ToolsetDependencies>
 </Dependencies>
